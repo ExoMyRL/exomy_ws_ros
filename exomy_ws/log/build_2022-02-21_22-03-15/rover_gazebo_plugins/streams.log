@@ -1,0 +1,145 @@
+[0.023s] Invoking command in '/home/exomy/exomy_ws/build/rover_gazebo_plugins': CMAKE_PREFIX_PATH=/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/ros_wrapper:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_msgs:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy LD_LIBRARY_PATH=/home/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/exomy/exomy_ws/install/exomy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/exomy/exomy_ws/src/rover_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/exomy/exomy_ws/install/rover_gazebo_plugins
+[0.094s] -- The C compiler identification is GNU 9.3.0
+[0.160s] -- The CXX compiler identification is GNU 9.3.0
+[0.166s] -- Check for working C compiler: /usr/bin/cc
+[0.260s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.264s] -- Detecting C compiler ABI info
+[0.384s] -- Detecting C compiler ABI info - done
+[0.396s] -- Detecting C compile features
+[0.396s] -- Detecting C compile features - done
+[0.399s] -- Check for working CXX compiler: /usr/bin/c++
+[0.504s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.505s] -- Detecting CXX compiler ABI info
+[0.621s] -- Detecting CXX compiler ABI info - done
+[0.638s] -- Detecting CXX compile features
+[0.639s] -- Detecting CXX compile features - done
+[0.647s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.675s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.675s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.892s] -- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+[0.897s] -- Found gazebo_dev: 3.5.3 (/opt/ros/foxy/share/gazebo_dev/cmake)
+[0.904s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[0.909s] -- Checking for module 'bullet>=2.82'
+[0.936s] --   Found bullet, version 2.88
+[1.107s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[1.193s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[1.288s] -- Found assimp: /usr/include (found version "5.0.0") 
+[1.320s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.776s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.798s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.806s] -- Looking for ignition-math6 -- found version 6.9.2
+[1.814s] -- Searching for dependencies of ignition-math6
+[1.817s] -- Looking for OGRE...
+[1.818s] -- OGRE_PREFIX_WATCH changed.
+[1.823s] -- Checking for module 'OGRE'
+[1.846s] --   Found OGRE, version 1.9.0
+[1.903s] -- Found Ogre Ghadamon (1.9.0)
+[1.911s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.926s] -- Looking for OGRE_Paging...
+[1.939s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.939s] -- Looking for OGRE_Terrain...
+[1.949s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.949s] -- Looking for OGRE_Property...
+[1.955s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.955s] -- Looking for OGRE_RTShaderSystem...
+[1.960s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.961s] -- Looking for OGRE_Volume...
+[1.967s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.967s] -- Looking for OGRE_Overlay...
+[1.973s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.097s] -- Looking for ignition-math6 -- found version 6.9.2
+[2.100s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.101s] -- Searching for dependencies of ignition-transport8
+[2.125s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[2.141s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.147s] -- Checking for module 'libzmq >= 4'
+[2.171s] --   Found libzmq , version 4.3.2
+[2.234s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.241s] -- Checking for module 'uuid'
+[2.264s] --   Found uuid, version 2.34.0
+[2.317s] -- Found UUID: TRUE  
+[2.320s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.321s] -- Searching for dependencies of ignition-msgs5
+[2.347s] -- Looking for ignition-math6 -- found version 6.9.2
+[2.360s] -- Checking for module 'tinyxml2'
+[2.376s] --   Found tinyxml2, version 6.2.0
+[2.431s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.435s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.435s] -- Searching for dependencies of ignition-common3
+[2.436s] -- Looking for dlfcn.h - found
+[2.437s] -- Looking for libdl - found
+[2.438s] -- Found DL: TRUE  
+[2.448s] -- Searching for <ignition-common3> component [graphics]
+[2.452s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.453s] -- Searching for dependencies of ignition-common3-graphics
+[2.453s] -- Looking for ignition-math6 -- found version 6.9.2
+[2.458s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.459s] -- Searching for dependencies of ignition-fuel_tools4
+[2.557s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[2.569s] -- Checking for module 'jsoncpp'
+[2.592s] --   Found jsoncpp, version 1.7.4
+[2.649s] -- Found JSONCPP: TRUE  
+[2.656s] -- Checking for module 'libzip'
+[2.676s] --   Found libzip, version 1.5.1
+[2.726s] -- Found ZIP: TRUE  
+[2.727s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.727s] -- Looking for ignition-math6 -- found version 6.9.2
+[2.728s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.729s] -- Gazebo version: 11.9
+[2.732s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[2.786s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.796s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.947s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.988s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.098s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.166s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.168s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.170s] -- Found Threads: TRUE  
+[3.348s] -- Found exomy_sim_msgs: 2.0.0 (/home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake)
+[3.416s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.519s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.521s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.523s] -- Configured cppcheck include dirs: /home/exomy/exomy_ws/src/rover_gazebo_plugins/include
+[3.523s] -- Configured cppcheck exclude dirs and/or files: 
+[3.524s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.525s] -- Configured cpplint exclude dirs and/or files: 
+[3.526s] -- Added test 'lint_cmake' to check CMake code style
+[3.528s] -- Added test 'uncrustify' to check C / C++ code style
+[3.528s] -- Configured uncrustify additional arguments: 
+[3.529s] -- Added test 'xmllint' to check XML markup files
+[3.535s] -- Configuring done
+[3.569s] -- Generating done
+[3.573s] -- Build files have been written to: /home/exomy/exomy_ws/build/rover_gazebo_plugins
+[3.586s] Invoked command in '/home/exomy/exomy_ws/build/rover_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/ros_wrapper:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_msgs:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy LD_LIBRARY_PATH=/home/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/exomy/exomy_ws/install/exomy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/exomy/exomy_ws/src/rover_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/exomy/exomy_ws/install/rover_gazebo_plugins
+[3.587s] Invoking command in '/home/exomy/exomy_ws/build/rover_gazebo_plugins': CMAKE_PREFIX_PATH=/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/ros_wrapper:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_msgs:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy LD_LIBRARY_PATH=/home/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/exomy/exomy_ws/install/exomy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/exomy/exomy_ws/build/rover_gazebo_plugins -- -j2 -l2
+[3.657s] [35m[1mScanning dependencies of target rover_gazebo_joint_plugin[0m
+[3.812s] [ 50%] [32mBuilding CXX object CMakeFiles/rover_gazebo_joint_plugin.dir/src/rover_gazebo_joint_plugin.cpp.o[0m
+[17.152s] [100%] [32m[1mLinking CXX shared library librover_gazebo_joint_plugin.so[0m
+[17.779s] [100%] Built target rover_gazebo_joint_plugin
+[17.795s] Invoked command in '/home/exomy/exomy_ws/build/rover_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/ros_wrapper:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_msgs:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy LD_LIBRARY_PATH=/home/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/exomy/exomy_ws/install/exomy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/exomy/exomy_ws/build/rover_gazebo_plugins -- -j2 -l2
+[17.836s] Invoking command in '/home/exomy/exomy_ws/build/rover_gazebo_plugins': CMAKE_PREFIX_PATH=/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/ros_wrapper:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_msgs:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy LD_LIBRARY_PATH=/home/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/exomy/exomy_ws/install/exomy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/exomy/exomy_ws/build/rover_gazebo_plugins
+[17.848s] -- Install configuration: ""
+[17.848s] -- Installing: /home/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/environment/library_path.sh
+[17.849s] -- Installing: /home/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/environment/library_path.dsv
+[17.849s] -- Installing: /home/exomy/exomy_ws/install/rover_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/rover_gazebo_plugins
+[17.850s] -- Installing: /home/exomy/exomy_ws/install/rover_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/rover_gazebo_plugins
+[17.850s] -- Installing: /home/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/environment/ament_prefix_path.sh
+[17.851s] -- Installing: /home/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/environment/ament_prefix_path.dsv
+[17.851s] -- Installing: /home/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/environment/path.sh
+[17.851s] -- Installing: /home/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/environment/path.dsv
+[17.852s] -- Installing: /home/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/local_setup.bash
+[17.853s] -- Installing: /home/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/local_setup.sh
+[17.853s] -- Installing: /home/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/local_setup.zsh
+[17.853s] -- Installing: /home/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/local_setup.dsv
+[17.854s] -- Installing: /home/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/package.dsv
+[17.854s] -- Installing: /home/exomy/exomy_ws/install/rover_gazebo_plugins/share/ament_index/resource_index/packages/rover_gazebo_plugins
+[17.855s] -- Installing: /home/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[17.855s] -- Installing: /home/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/cmake/rover_gazebo_pluginsConfig.cmake
+[17.856s] -- Installing: /home/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/cmake/rover_gazebo_pluginsConfig-version.cmake
+[17.857s] -- Installing: /home/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/package.xml
+[17.857s] -- Installing: /home/exomy/exomy_ws/install/rover_gazebo_plugins/include
+[17.858s] -- Installing: /home/exomy/exomy_ws/install/rover_gazebo_plugins/include/rover_gazebo_plugins
+[17.858s] -- Installing: /home/exomy/exomy_ws/install/rover_gazebo_plugins/include/rover_gazebo_plugins/rover_gazebo_joint_plugin.hpp
+[17.859s] -- Installing: /home/exomy/exomy_ws/install/rover_gazebo_plugins/lib/librover_gazebo_joint_plugin.so
+[17.865s] -- Set runtime path of "/home/exomy/exomy_ws/install/rover_gazebo_plugins/lib/librover_gazebo_joint_plugin.so" to ""
+[17.868s] Invoked command in '/home/exomy/exomy_ws/build/rover_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/ros_wrapper:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_msgs:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy LD_LIBRARY_PATH=/home/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/exomy/exomy_ws/install/exomy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/exomy/exomy_ws/build/rover_gazebo_plugins

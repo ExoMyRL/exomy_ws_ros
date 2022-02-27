@@ -1,0 +1,27 @@
+[9.418s] Invoking command in '/home/exomy/exomy_ws/src/exomy': AMENT_PREFIX_PATH=/home/exomy/exomy_ws/install/exomy_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/exomy/exomy_ws/install/exomy_msgs LD_LIBRARY_PATH=/home/exomy/exomy_ws/install/exomy_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/exomy build --build-base /home/exomy/exomy_ws/build/exomy/build install --prefix /home/exomy/exomy_ws/install/exomy --record /home/exomy/exomy_ws/build/exomy/install.log --single-version-externally-managed
+[11.139s] running egg_info
+[11.156s] writing ../../build/exomy/exomy.egg-info/PKG-INFO
+[11.162s] writing dependency_links to ../../build/exomy/exomy.egg-info/dependency_links.txt
+[11.172s] writing entry points to ../../build/exomy/exomy.egg-info/entry_points.txt
+[11.173s] writing requirements to ../../build/exomy/exomy.egg-info/requires.txt
+[11.184s] writing top-level names to ../../build/exomy/exomy.egg-info/top_level.txt
+[11.555s] reading manifest file '../../build/exomy/exomy.egg-info/SOURCES.txt'
+[11.577s] writing manifest file '../../build/exomy/exomy.egg-info/SOURCES.txt'
+[11.589s] running build
+[11.589s] running build_py
+[11.607s] copying exomy/rover_modified.py -> /home/exomy/exomy_ws/build/exomy/build/lib/exomy
+[11.613s] running install
+[11.621s] running install_lib
+[11.636s] copying /home/exomy/exomy_ws/build/exomy/build/lib/exomy/rover_modified.py -> /home/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages/exomy
+[11.651s] byte-compiling /home/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages/exomy/rover_modified.py to rover_modified.cpython-38.pyc
+[11.672s] running install_data
+[11.682s] running install_egg_info
+[11.695s] removing '/home/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages/exomy-2.0.0-py3.8.egg-info' (and everything under it)
+[11.701s] Copying ../../build/exomy/exomy.egg-info to /home/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages/exomy-2.0.0-py3.8.egg-info
+[11.712s] running install_scripts
+[11.931s] Installing gamepad_parser_node script to /home/exomy/exomy_ws/install/exomy/lib/exomy
+[11.931s] Installing motor_node script to /home/exomy/exomy_ws/install/exomy/lib/exomy
+[11.931s] Installing robot_node script to /home/exomy/exomy_ws/install/exomy/lib/exomy
+[11.931s] Installing robot_node_modified script to /home/exomy/exomy_ws/install/exomy/lib/exomy
+[11.941s] writing list of installed files to '/home/exomy/exomy_ws/build/exomy/install.log'
+[12.179s] Invoked command in '/home/exomy/exomy_ws/src/exomy' returned '0': AMENT_PREFIX_PATH=/home/exomy/exomy_ws/install/exomy_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/exomy/exomy_ws/install/exomy_msgs LD_LIBRARY_PATH=/home/exomy/exomy_ws/install/exomy_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/exomy build --build-base /home/exomy/exomy_ws/build/exomy/build install --prefix /home/exomy/exomy_ws/install/exomy --record /home/exomy/exomy_ws/build/exomy/install.log --single-version-externally-managed

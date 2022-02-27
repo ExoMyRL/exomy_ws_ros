@@ -1,0 +1,237 @@
+[0.020s] Invoking command in '/home/exomy/exomy_ws/build/exomy_sim_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake /home/exomy/exomy_ws/src/exomy_sim_msgs -DCMAKE_INSTALL_PREFIX=/home/exomy/exomy_ws/install/exomy_sim_msgs
+[0.084s] -- The C compiler identification is GNU 9.3.0
+[0.155s] -- The CXX compiler identification is GNU 9.3.0
+[0.160s] -- Check for working C compiler: /usr/bin/cc
+[0.245s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.245s] -- Detecting C compiler ABI info
+[0.329s] -- Detecting C compiler ABI info - done
+[0.334s] -- Detecting C compile features
+[0.334s] -- Detecting C compile features - done
+[0.337s] -- Check for working CXX compiler: /usr/bin/c++
+[0.446s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.447s] -- Detecting CXX compiler ABI info
+[0.545s] -- Detecting CXX compiler ABI info - done
+[0.551s] -- Detecting CXX compile features
+[0.552s] -- Detecting CXX compile features - done
+[0.555s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.584s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.584s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.767s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.773s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.783s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.910s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.958s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.093s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.136s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[1.195s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.337s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.561s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.634s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.659s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.661s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.696s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.697s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.697s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.697s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.756s] -- Found PythonExtra: .so  
+[1.901s] -- Configuring done
+[1.999s] -- Generating done
+[2.012s] -- Build files have been written to: /home/exomy/exomy_ws/build/exomy_sim_msgs
+[2.024s] Invoked command in '/home/exomy/exomy_ws/build/exomy_sim_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake /home/exomy/exomy_ws/src/exomy_sim_msgs -DCMAKE_INSTALL_PREFIX=/home/exomy/exomy_ws/install/exomy_sim_msgs
+[2.025s] Invoking command in '/home/exomy/exomy_ws/build/exomy_sim_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --build /home/exomy/exomy_ws/build/exomy_sim_msgs -- -j2 -l2
+[2.116s] [35m[1mScanning dependencies of target exomy_sim_msgs__cpp[0m
+[2.135s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.160s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.721s] [  5%] Built target exomy_sim_msgs__cpp
+[2.763s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.799s] [35m[1mScanning dependencies of target exomy_sim_msgs__rosidl_generator_c[0m
+[2.857s] [ 10%] [32mBuilding C object CMakeFiles/exomy_sim_msgs__rosidl_generator_c.dir/rosidl_generator_c/exomy_sim_msgs/msg/detail/joint_command__functions.c.o[0m
+[2.978s] [ 12%] [32mBuilding C object CMakeFiles/exomy_sim_msgs__rosidl_generator_c.dir/rosidl_generator_c/exomy_sim_msgs/msg/detail/joint_command_array__functions.c.o[0m
+[3.104s] [ 15%] [32m[1mLinking C shared library libexomy_sim_msgs__rosidl_generator_c.so[0m
+[3.259s] [ 15%] Built target exomy_sim_msgs__rosidl_generator_c
+[3.300s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.349s] [35m[1mScanning dependencies of target exomy_sim_msgs__rosidl_typesupport_introspection_cpp[0m
+[3.401s] [ 20%] [32mBuilding CXX object CMakeFiles/exomy_sim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/exomy_sim_msgs/msg/detail/joint_command__type_support.cpp.o[0m
+[3.725s] [35m[1mScanning dependencies of target exomy_sim_msgs__rosidl_typesupport_cpp[0m
+[3.784s] [ 23%] [32mBuilding CXX object CMakeFiles/exomy_sim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/exomy_sim_msgs/msg/joint_command__type_support.cpp.o[0m
+[4.007s] [ 25%] [32mBuilding CXX object CMakeFiles/exomy_sim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/exomy_sim_msgs/msg/detail/joint_command_array__type_support.cpp.o[0m
+[4.359s] [ 28%] [32mBuilding CXX object CMakeFiles/exomy_sim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/exomy_sim_msgs/msg/joint_command_array__type_support.cpp.o[0m
+[4.706s] [ 30%] [32m[1mLinking CXX shared library libexomy_sim_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.899s] [ 30%] Built target exomy_sim_msgs__rosidl_typesupport_introspection_cpp
+[4.903s] [ 33%] [32m[1mLinking CXX shared library libexomy_sim_msgs__rosidl_typesupport_cpp.so[0m
+[4.964s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.041s] [ 35%] Built target exomy_sim_msgs__rosidl_typesupport_cpp
+[5.123s] [ 38%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.523s] [35m[1mScanning dependencies of target exomy_sim_msgs__rosidl_typesupport_introspection_c[0m
+[5.553s] [ 41%] [32mBuilding C object CMakeFiles/exomy_sim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/exomy_sim_msgs/msg/detail/joint_command__type_support.c.o[0m
+[5.628s] [ 43%] [32mBuilding C object CMakeFiles/exomy_sim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/exomy_sim_msgs/msg/detail/joint_command_array__type_support.c.o[0m
+[5.646s] [35m[1mScanning dependencies of target exomy_sim_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[5.692s] [ 46%] [32mBuilding CXX object CMakeFiles/exomy_sim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/exomy_sim_msgs/msg/detail/dds_fastrtps/joint_command__type_support.cpp.o[0m
+[5.712s] [ 48%] [32m[1mLinking C shared library libexomy_sim_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.811s] [ 48%] Built target exomy_sim_msgs__rosidl_typesupport_introspection_c
+[5.863s] [ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.294s] [35m[1mScanning dependencies of target exomy_sim_msgs__rosidl_typesupport_c[0m
+[6.349s] [ 53%] [32mBuilding CXX object CMakeFiles/exomy_sim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/exomy_sim_msgs/msg/joint_command__type_support.cpp.o[0m
+[6.390s] [ 56%] [32mBuilding CXX object CMakeFiles/exomy_sim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/exomy_sim_msgs/msg/detail/dds_fastrtps/joint_command_array__type_support.cpp.o[0m
+[6.443s] [ 58%] [32mBuilding CXX object CMakeFiles/exomy_sim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/exomy_sim_msgs/msg/joint_command_array__type_support.cpp.o[0m
+[6.547s] [ 61%] [32m[1mLinking CXX shared library libexomy_sim_msgs__rosidl_typesupport_c.so[0m
+[6.681s] [ 61%] Built target exomy_sim_msgs__rosidl_typesupport_c
+[7.056s] [ 64%] [32m[1mLinking CXX shared library libexomy_sim_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.218s] [ 64%] Built target exomy_sim_msgs__rosidl_typesupport_fastrtps_cpp
+[7.248s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.634s] [35m[1mScanning dependencies of target exomy_sim_msgs__rosidl_typesupport_fastrtps_c[0m
+[7.682s] [ 69%] [32mBuilding CXX object CMakeFiles/exomy_sim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/exomy_sim_msgs/msg/detail/joint_command__type_support_c.cpp.o[0m
+[7.697s] [ 71%] [32mBuilding CXX object CMakeFiles/exomy_sim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/exomy_sim_msgs/msg/detail/joint_command_array__type_support_c.cpp.o[0m
+[8.393s] [ 74%] [32m[1mLinking CXX shared library libexomy_sim_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[8.563s] [ 74%] Built target exomy_sim_msgs__rosidl_typesupport_fastrtps_c
+[8.577s] [35m[1mScanning dependencies of target exomy_sim_msgs[0m
+[8.593s] [ 74%] Built target exomy_sim_msgs
+[8.608s] [35m[1mScanning dependencies of target exomy_sim_msgs__py[0m
+[8.623s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.143s] [ 76%] Built target exomy_sim_msgs__py
+[9.157s] [35m[1mScanning dependencies of target exomy_sim_msgs__python[0m
+[9.213s] [ 79%] [32mBuilding C object CMakeFiles/exomy_sim_msgs__python.dir/rosidl_generator_py/exomy_sim_msgs/msg/_joint_command_s.c.o[0m
+[9.220s] [ 82%] [32mBuilding C object CMakeFiles/exomy_sim_msgs__python.dir/rosidl_generator_py/exomy_sim_msgs/msg/_joint_command_array_s.c.o[0m
+[9.366s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/exomy_sim_msgs/libexomy_sim_msgs__python.so[0m
+[9.424s] [ 84%] Built target exomy_sim_msgs__python
+[9.441s] [35m[1mScanning dependencies of target exomy_sim_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[9.466s] [35m[1mScanning dependencies of target exomy_sim_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[9.500s] [ 87%] [32mBuilding C object CMakeFiles/exomy_sim_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/exomy_sim_msgs/_exomy_sim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.502s] [ 89%] [32mBuilding C object CMakeFiles/exomy_sim_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/exomy_sim_msgs/_exomy_sim_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.635s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/exomy_sim_msgs/exomy_sim_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[9.665s] [ 94%] [32m[1mLinking CXX shared library rosidl_generator_py/exomy_sim_msgs/exomy_sim_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[9.696s] [ 94%] Built target exomy_sim_msgs__rosidl_typesupport_introspection_c__pyext
+[9.722s] [35m[1mScanning dependencies of target exomy_sim_msgs__rosidl_typesupport_c__pyext[0m
+[9.772s] [ 97%] [32mBuilding C object CMakeFiles/exomy_sim_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/exomy_sim_msgs/_exomy_sim_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[9.803s] [ 97%] Built target exomy_sim_msgs__rosidl_typesupport_fastrtps_c__pyext
+[9.883s] [100%] [32m[1mLinking C shared library rosidl_generator_py/exomy_sim_msgs/exomy_sim_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[9.949s] [100%] Built target exomy_sim_msgs__rosidl_typesupport_c__pyext
+[9.962s] Invoked command in '/home/exomy/exomy_ws/build/exomy_sim_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --build /home/exomy/exomy_ws/build/exomy_sim_msgs -- -j2 -l2
+[10.184s] Invoking command in '/home/exomy/exomy_ws/build/exomy_sim_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --install /home/exomy/exomy_ws/build/exomy_sim_msgs
+[10.213s] -- Install configuration: ""
+[10.213s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/ament_index/resource_index/rosidl_interfaces/exomy_sim_msgs
+[10.213s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs
+[10.214s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg
+[10.214s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.214s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail
+[10.214s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__functions.h
+[10.215s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__functions.h
+[10.215s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__type_support.h
+[10.215s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__functions.c
+[10.215s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__struct.h
+[10.216s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__struct.h
+[10.216s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__functions.c
+[10.216s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__type_support.h
+[10.217s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/joint_command_array.h
+[10.217s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/joint_command.h
+[10.217s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/environment/library_path.sh
+[10.217s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/environment/library_path.dsv
+[10.218s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_generator_c.so
+[10.220s] -- Set runtime path of "/home/exomy/exomy_ws/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_generator_c.so" to ""
+[10.220s] -- Up-to-date: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs
+[10.220s] -- Up-to-date: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg
+[10.220s] -- Up-to-date: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail
+[10.220s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__rosidl_typesupport_fastrtps_c.h
+[10.221s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__rosidl_typesupport_fastrtps_c.h
+[10.221s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.221s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_fastrtps_c.so
+[10.222s] -- Set runtime path of "/home/exomy/exomy_ws/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[10.222s] -- Up-to-date: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs
+[10.222s] -- Up-to-date: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg
+[10.222s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.223s] -- Up-to-date: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail
+[10.223s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__rosidl_typesupport_fastrtps_cpp.hpp
+[10.223s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/dds_fastrtps
+[10.223s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__rosidl_typesupport_fastrtps_cpp.hpp
+[10.224s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.225s] -- Set runtime path of "/home/exomy/exomy_ws/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.225s] -- Up-to-date: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs
+[10.225s] -- Up-to-date: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg
+[10.225s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.225s] -- Up-to-date: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail
+[10.226s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__rosidl_typesupport_introspection_c.h
+[10.226s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__rosidl_typesupport_introspection_c.h
+[10.226s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__type_support.c
+[10.226s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__type_support.c
+[10.227s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_introspection_c.so
+[10.227s] -- Set runtime path of "/home/exomy/exomy_ws/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_introspection_c.so" to ""
+[10.228s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_c.so
+[10.231s] -- Set runtime path of "/home/exomy/exomy_ws/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_c.so" to ""
+[10.231s] -- Up-to-date: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs
+[10.233s] -- Up-to-date: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg
+[10.233s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/joint_command_array.hpp
+[10.233s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/joint_command.hpp
+[10.233s] -- Up-to-date: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail
+[10.233s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__struct.hpp
+[10.233s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__struct.hpp
+[10.234s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__traits.hpp
+[10.234s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__builder.hpp
+[10.235s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__builder.hpp
+[10.235s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__traits.hpp
+[10.237s] -- Up-to-date: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs
+[10.237s] -- Up-to-date: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg
+[10.237s] -- Up-to-date: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail
+[10.237s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__rosidl_typesupport_introspection_cpp.hpp
+[10.238s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__type_support.cpp
+[10.238s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__rosidl_typesupport_introspection_cpp.hpp
+[10.238s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__type_support.cpp
+[10.238s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_introspection_cpp.so
+[10.241s] -- Set runtime path of "/home/exomy/exomy_ws/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[10.241s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_cpp.so
+[10.241s] -- Set runtime path of "/home/exomy/exomy_ws/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_cpp.so" to ""
+[10.241s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/environment/pythonpath.sh
+[10.242s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/environment/pythonpath.dsv
+[10.242s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/__init__.py
+[10.273s] Compiling '/home/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/__init__.py'...
+[10.280s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/msg
+[10.281s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/msg/_joint_command_array_s.c
+[10.281s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/msg/_joint_command.py
+[10.281s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/msg/__init__.py
+[10.281s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/msg/_joint_command_array.py
+[10.281s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/msg/_joint_command_s.c
+[10.281s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/exomy_sim_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[10.281s] -- Set runtime path of "/home/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/exomy_sim_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[10.281s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/exomy_sim_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[10.281s] -- Set runtime path of "/home/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/exomy_sim_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[10.281s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/exomy_sim_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[10.281s] -- Set runtime path of "/home/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/exomy_sim_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[10.282s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/lib/libexomy_sim_msgs__python.so
+[10.282s] -- Set runtime path of "/home/exomy/exomy_ws/install/exomy_sim_msgs/lib/libexomy_sim_msgs__python.so" to ""
+[10.282s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/msg/JointCommand.idl
+[10.282s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/msg/JointCommandArray.idl
+[10.282s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/msg/JointCommand.msg
+[10.282s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/msg/JointCommandArray.msg
+[10.282s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/ament_index/resource_index/package_run_dependencies/exomy_sim_msgs
+[10.282s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/ament_index/resource_index/parent_prefix_path/exomy_sim_msgs
+[10.282s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/environment/ament_prefix_path.sh
+[10.282s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/environment/ament_prefix_path.dsv
+[10.283s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/environment/path.sh
+[10.283s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/environment/path.dsv
+[10.283s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/local_setup.bash
+[10.283s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/local_setup.sh
+[10.283s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/local_setup.zsh
+[10.284s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/local_setup.dsv
+[10.284s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/package.dsv
+[10.284s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/ament_index/resource_index/packages/exomy_sim_msgs
+[10.284s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_generator_cExport.cmake
+[10.285s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.285s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.285s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.285s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_cExport.cmake
+[10.286s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.286s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_generator_cppExport.cmake
+[10.286s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.286s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.286s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_cppExport.cmake
+[10.287s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.287s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/rosidl_cmake-extras.cmake
+[10.287s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.287s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.288s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[10.288s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.288s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.288s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.288s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgsConfig.cmake
+[10.289s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgsConfig-version.cmake
+[10.289s] -- Installing: /home/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/package.xml
+[10.292s] Invoked command in '/home/exomy/exomy_ws/build/exomy_sim_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --install /home/exomy/exomy_ws/build/exomy_sim_msgs
