@@ -33,7 +33,7 @@ class RobotNode(Node):
         cmds = MotorCommands()
         #værdierne i cmds opdateres igennem funktionen set_steeringangles som er en del af rover_modified klassen. set_steeringangles tager den ønskede lineære og angulære hastighed på robotten som argument
         cmds.motor_angles, cmds.motor_speeds = self.robot.Set_SteeringAngles(
-            msg.linear.x, msg.angular.y)
+            msg.linear.x, msg.linear.y , msg.angular.y)
         print(cmds)    
         #her sendes beskeden ud på det dertil allokerede topic
         self.robot_pub.publish(cmds)
