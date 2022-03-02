@@ -28,7 +28,7 @@ class Rover():
         steering_angles = [0]*6
         motor_speeds = [0]*6
         # Determine radius of turning point (from the center of the rover) (Centimeters):
-        lin_vel = math.sqrt(lin_vel_x+lin_vel_y) # Jeg er ikke sikker paa vi kan goere det saadan her
+        lin_vel = math.sqrt(lin_vel_x^2+lin_vel_y^2) # Jeg er ikke sikker paa vi kan goere det saadan her
         radius = (lin_vel/abs(ang_vel))*10
 
         # Distance from center of the rover to the top (centimeters):
