@@ -34,7 +34,7 @@ class Rover():
             radius = (abs(lin_vel_x)/abs(ang_vel))*10
 
         # Distance from center of the rover to the top (centimeters):
-        y_top = 20 # check if it's correct
+        y_top = 19.5 # check if it's correct
         # Distance from center of the the side:
         x_side = 15 # check if it's correct
 
@@ -49,7 +49,7 @@ class Rover():
             steering_angles[self.CR] = 0
             steering_angles[self.RL] = 0
             steering_angles[self.RR] = 0
-        elif radius <= 15: 
+        elif radius <= x_side: 
             steering_angles[self.FL] = math.atan2(y_top,x_side)
             steering_angles[self.FR] = -math.atan2(y_top,x_side)
             steering_angles[self.CL] = 0
@@ -78,43 +78,92 @@ class Rover():
         """
         # Speed moving forward/backward
         if ang_vel == 0: 
-            motor_speeds[self.FL] = lin_vel_x*30 # fix skalerings faktor
-            motor_speeds[self.FR] = lin_vel_x*30 # fix skalerings faktor
-            motor_speeds[self.CL] = lin_vel_x*30 # fix skalerings faktor
-            motor_speeds[self.CR] = lin_vel_x*30 # fix skalerings faktor
-            motor_speeds[self.RL] = lin_vel_x*30 # fix skalerings faktor
-            motor_speeds[self.RR] = lin_vel_x*30 # fix skalerings faktor
+            motor_speeds[self.FL] = lin_vel_x
+            motor_speeds[self.FR] = lin_vel_x
+            motor_speeds[self.CL] = lin_vel_x
+            motor_speeds[self.CR] = lin_vel_x
+            motor_speeds[self.RL] = lin_vel_x
+            motor_speeds[self.RR] = lin_vel_x
         # Speed turning in place
-        elif radius <= 15 and ang_vel > 0: # anticlockwise
-            motor_speeds[self.FL] = -math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
-            motor_speeds[self.FR] = math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
-            motor_speeds[self.CL] = -x_side*abs(ang_vel)
-            motor_speeds[self.CR] = x_side*abs(ang_vel)
-            motor_speeds[self.RL] = -math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
-            motor_speeds[self.RR] = math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
-        elif radius <= 15 and ang_vel < 0: # Clockwise
-            motor_speeds[self.FL] = math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
-            motor_speeds[self.FR] = -math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
-            motor_speeds[self.CL] = x_side*abs(ang_vel)
-            motor_speeds[self.CR] = -x_side*abs(ang_vel)
-            motor_speeds[self.RL] = math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
-            motor_speeds[self.RR] = -math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
+        
+        # elif radius <= x_side and ang_vel > 0: # anticlockwise
+        #     motor_speeds[self.FL] = -math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
+        #     motor_speeds[self.FR] = math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
+        #     motor_speeds[self.CL] = -x_side*abs(ang_vel)
+        #     motor_speeds[self.CR] = x_side*abs(ang_vel)
+        #     motor_speeds[self.RL] = -math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
+        #     motor_speeds[self.RR] = math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
+        
+        elif radius <= x_side and ang_vel > 0: # anticlockwise
+            frontLeft = math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
+            centerLeft = x_side*abs(ang_vel)
+            relation = centerLeft/frontLeft
+            motor_speeds[self.FL] = -lin_vel_x
+            motor_speeds[self.FR] = lin_vel_x
+            motor_speeds[self.CL] = -lin_vel_x*relation
+            motor_speeds[self.CR] = lin_vel_x*relation
+            motor_speeds[self.RL] = -lin_vel_x
+            motor_speeds[self.RR] = lin_vel_x
+        # elif radius <= x_side and ang_vel < 0: # Clockwise
+        #     motor_speeds[self.FL] = math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
+        #     motor_speeds[self.FR] = -math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
+        #     motor_speeds[self.CL] = x_side*abs(ang_vel)
+        #     motor_speeds[self.CR] = -x_side*abs(ang_vel)
+        #     motor_speeds[self.RL] = math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
+        #     motor_speeds[self.RR] = -math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
+        elif radius <= x_side and ang_vel < 0: # Clockwise
+            frontLeft = math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
+            centerLeft = x_side*abs(ang_vel)
+            relation = centerLeft/frontLeft
+            motor_speeds[self.FL] = lin_vel_x
+            motor_speeds[self.FR] = -lin_vel_x
+            motor_speeds[self.CL] = lin_vel_x*relation
+            motor_speeds[self.CR] = -lin_vel_x*relation
+            motor_speeds[self.RL] = lin_vel_x
+            motor_speeds[self.RR] = -lin_vel_x
         # Speed turning anticlockwise:
-        elif ang_vel >= 0:
-            motor_speeds[self.FL] = (math.sqrt((y_top*y_top)+((radius-x_side)*(radius-x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
-            motor_speeds[self.FR] = (math.sqrt((y_top*y_top)+((radius+x_side)*(radius+x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
-            motor_speeds[self.CL] = ((radius-x_side)*abs(ang_vel))*np.sign(lin_vel_x)
-            motor_speeds[self.CR] = ((radius+x_side)*abs(ang_vel))*np.sign(lin_vel_x)
-            motor_speeds[self.RL] = (math.sqrt((y_top*y_top)+((x_side-x_side)*(x_side-x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
-            motor_speeds[self.RR] = (math.sqrt((y_top*y_top)+((x_side+x_side)*(x_side+x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
+        # elif ang_vel > 0:
+        #     motor_speeds[self.FL] = (math.sqrt((y_top*y_top)+((radius-x_side)*(radius-x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
+        #     motor_speeds[self.FR] = (math.sqrt((y_top*y_top)+((radius+x_side)*(radius+x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
+        #     motor_speeds[self.CL] = ((radius-x_side)*abs(ang_vel))*np.sign(lin_vel_x)
+        #     motor_speeds[self.CR] = ((radius+x_side)*abs(ang_vel))*np.sign(lin_vel_x)
+        #     motor_speeds[self.RL] = (math.sqrt((y_top*y_top)+((x_side-x_side)*(x_side-x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
+        #     motor_speeds[self.RR] = (math.sqrt((y_top*y_top)+((x_side+x_side)*(x_side+x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
+        elif ang_vel > 0:
+            frontLeft = (math.sqrt((y_top*y_top)+((radius-x_side)*(radius-x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
+            frontRight = (math.sqrt((y_top*y_top)+((radius+x_side)*(radius+x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
+            frontRelation = frontLeft/frontRight
+            centerLeft = ((radius-x_side)*abs(ang_vel))*np.sign(lin_vel_x)
+            centerRight = ((radius+x_side)*abs(ang_vel))*np.sign(lin_vel_x)
+            centerRelation = centerLeft/centerRight
+            frontCenterRelation = centerRight/frontRight
+            motor_speeds[self.FL] = lin_vel_x*frontRelation
+            motor_speeds[self.FR] = lin_vel_x
+            motor_speeds[self.CL] = lin_vel_x*frontCenterRelation*centerRelation
+            motor_speeds[self.CR] = lin_vel_x*frontCenterRelation
+            motor_speeds[self.RL] = lin_vel_x*frontRelation
+            motor_speeds[self.RR] = lin_vel_x
         # Speed turning clockwise
         elif ang_vel < 0:
-            motor_speeds[self.FL] = (math.sqrt((y_top*y_top)+((radius+x_side)*(radius+x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
-            motor_speeds[self.FR] = (math.sqrt((y_top*y_top)+((radius-x_side)*(radius-x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
-            motor_speeds[self.CL] = ((radius+x_side)*abs(ang_vel))*np.sign(lin_vel_x)
-            motor_speeds[self.CR] = ((radius-x_side)*abs(ang_vel))*np.sign(lin_vel_x)
-            motor_speeds[self.RL] = (math.sqrt((y_top*y_top)+((radius+x_side)*(radius+x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
-            motor_speeds[self.RR] = (math.sqrt((y_top*y_top)+((radius-x_side)*(radius-x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
+            frontLeft = (math.sqrt((y_top*y_top)+((radius+x_side)*(radius+x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
+            frontRight = (math.sqrt((y_top*y_top)+((radius-x_side)*(radius-x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
+            frontRelation = frontRight/frontLeft
+            centerLeft = ((radius+x_side)*abs(ang_vel))*np.sign(lin_vel_x)
+            centerRight = ((radius-x_side)*abs(ang_vel))*np.sign(lin_vel_x)
+            centerRelation = centerRight/centerLeft
+            frontCenterRelation = centerLeft/frontLeft
+            # motor_speeds[self.FL] = (math.sqrt((y_top*y_top)+((radius+x_side)*(radius+x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
+            # motor_speeds[self.FR] = (math.sqrt((y_top*y_top)+((radius-x_side)*(radius-x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
+            # motor_speeds[self.CL] = ((radius+x_side)*abs(ang_vel))*np.sign(lin_vel_x)
+            # motor_speeds[self.CR] = ((radius-x_side)*abs(ang_vel))*np.sign(lin_vel_x)
+            # motor_speeds[self.RL] = (math.sqrt((y_top*y_top)+((radius+x_side)*(radius+x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
+            # motor_speeds[self.RR] = (math.sqrt((y_top*y_top)+((radius-x_side)*(radius-x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
+            motor_speeds[self.FL] = lin_vel_x
+            motor_speeds[self.FR] = lin_vel_x*frontRelation
+            motor_speeds[self.CL] = lin_vel_x*frontCenterRelation
+            motor_speeds[self.CR] = lin_vel_x*frontCenterRelation*centerRelation
+            motor_speeds[self.RL] = lin_vel_x
+            motor_speeds[self.RR] = lin_vel_x*frontRelation
 
     
         motor_speeds[self.FL] = int(motor_speeds[self.FL])
