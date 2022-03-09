@@ -27,21 +27,18 @@ class Rover():
         '''
         steering_angles = [0]*6
         motor_speeds = [0]*6
-        # Determine radius of turning point (from the center of the rover) (Centimeters):
-        # lin_vel = math.sqrt((lin_vel_x*lin_vel_x)+(lin_vel_y*lin_vel_y)) # Jeg er ikke sikker paa vi kan goere det saadan her
-        
+
         if ang_vel != 0:
             radius = (abs(lin_vel_x)/abs(ang_vel))*10
 
-        # Distance from center of the rover to the top (centimeters):
+        # Distance from center og the rover to the top (centimeters):
         y_top = 19.5 # check if it's correct
-        # Distance from center of the the side:
+        # Distance from center to the side:
         x_side = 15 # check if it's correct
 
         """
         Steering angles calculation 
         """
-        # If the turning point is within the chassis of the robot, turn on the spot:
         if ang_vel == 0: 
             steering_angles[self.FL] = 0
             steering_angles[self.FR] = 0
@@ -49,7 +46,8 @@ class Rover():
             steering_angles[self.CR] = 0
             steering_angles[self.RL] = 0
             steering_angles[self.RR] = 0
-        elif radius <= x_side: 
+        # If the turning point is within the chassis of the robot, turn on the spot:
+        elif radius <= x_side : 
             steering_angles[self.FL] = math.atan2(y_top,x_side)
             steering_angles[self.FR] = -math.atan2(y_top,x_side)
             steering_angles[self.CL] = 0
@@ -76,7 +74,7 @@ class Rover():
         """
         Motor speeds calculation
         """
-        # Speed moving forward/backward
+        # Speed moving forward/backward = linear velocity 
         if ang_vel == 0: 
             motor_speeds[self.FL] = lin_vel_x
             motor_speeds[self.FR] = lin_vel_x
@@ -84,51 +82,28 @@ class Rover():
             motor_speeds[self.CR] = lin_vel_x
             motor_speeds[self.RL] = lin_vel_x
             motor_speeds[self.RR] = lin_vel_x
-        # Speed turning in place
-        
-        # elif radius <= x_side and ang_vel > 0: # anticlockwise
-        #     motor_speeds[self.FL] = -math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
-        #     motor_speeds[self.FR] = math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
-        #     motor_speeds[self.CL] = -x_side*abs(ang_vel)
-        #     motor_speeds[self.CR] = x_side*abs(ang_vel)
-        #     motor_speeds[self.RL] = -math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
-        #     motor_speeds[self.RR] = math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
-        
-        elif radius <= x_side and ang_vel > 0: # anticlockwise
+        # Speed turning in place (anticlockwise), velocity of corner wheels = angular velocity 
+        elif radius <= x_side and ang_vel > 0: 
             frontLeft = math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
             centerLeft = x_side*abs(ang_vel)
-            relation = centerLeft/frontLeft
-            motor_speeds[self.FL] = -lin_vel_x
-            motor_speeds[self.FR] = lin_vel_x
-            motor_speeds[self.CL] = -lin_vel_x*relation
-            motor_speeds[self.CR] = lin_vel_x*relation
-            motor_speeds[self.RL] = -lin_vel_x
-            motor_speeds[self.RR] = lin_vel_x
-        # elif radius <= x_side and ang_vel < 0: # Clockwise
-        #     motor_speeds[self.FL] = math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
-        #     motor_speeds[self.FR] = -math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
-        #     motor_speeds[self.CL] = x_side*abs(ang_vel)
-        #     motor_speeds[self.CR] = -x_side*abs(ang_vel)
-        #     motor_speeds[self.RL] = math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
-        #     motor_speeds[self.RR] = -math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
-        elif radius <= x_side and ang_vel < 0: # Clockwise
+            relation = centerLeft/frontLeft # relation between corner wheel and center wheel velocity (center wheels slower)
+            motor_speeds[self.FL] = -abs(ang_vel)
+            motor_speeds[self.FR] = abs(ang_vel)
+            motor_speeds[self.CL] = -abs(ang_vel)*relation
+            motor_speeds[self.CR] = abs(ang_vel)*relation
+            motor_speeds[self.RL] = -abs(ang_vel)
+            motor_speeds[self.RR] = abs(ang_vel)
+        # Speed turning in place (clockwise), velocity of corner wheels = angular velocity 
+        elif radius <= x_side and ang_vel < 0: 
             frontLeft = math.sqrt((y_top*y_top)+(x_side*x_side))*abs(ang_vel)
             centerLeft = x_side*abs(ang_vel)
-            relation = centerLeft/frontLeft
-            motor_speeds[self.FL] = lin_vel_x
-            motor_speeds[self.FR] = -lin_vel_x
-            motor_speeds[self.CL] = lin_vel_x*relation
-            motor_speeds[self.CR] = -lin_vel_x*relation
-            motor_speeds[self.RL] = lin_vel_x
-            motor_speeds[self.RR] = -lin_vel_x
-        # Speed turning anticlockwise:
-        # elif ang_vel > 0:
-        #     motor_speeds[self.FL] = (math.sqrt((y_top*y_top)+((radius-x_side)*(radius-x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
-        #     motor_speeds[self.FR] = (math.sqrt((y_top*y_top)+((radius+x_side)*(radius+x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
-        #     motor_speeds[self.CL] = ((radius-x_side)*abs(ang_vel))*np.sign(lin_vel_x)
-        #     motor_speeds[self.CR] = ((radius+x_side)*abs(ang_vel))*np.sign(lin_vel_x)
-        #     motor_speeds[self.RL] = (math.sqrt((y_top*y_top)+((x_side-x_side)*(x_side-x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
-        #     motor_speeds[self.RR] = (math.sqrt((y_top*y_top)+((x_side+x_side)*(x_side+x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
+            relation = centerLeft/frontLeft # relation between corner wheel and center wheel velocity (center wheels slower)
+            motor_speeds[self.FL] = abs(ang_vel)
+            motor_speeds[self.FR] = -abs(ang_vel)
+            motor_speeds[self.CL] = abs(ang_vel)*relation
+            motor_speeds[self.CR] = -abs(ang_vel)*relation
+            motor_speeds[self.RL] = abs(ang_vel)
+            motor_speeds[self.RR] = -abs(ang_vel)
         elif ang_vel > 0:
             frontLeft = (math.sqrt((y_top*y_top)+((radius-x_side)*(radius-x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
             frontRight = (math.sqrt((y_top*y_top)+((radius+x_side)*(radius+x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
@@ -152,12 +127,6 @@ class Rover():
             centerRight = ((radius-x_side)*abs(ang_vel))*np.sign(lin_vel_x)
             centerRelation = centerRight/centerLeft
             frontCenterRelation = centerLeft/frontLeft
-            # motor_speeds[self.FL] = (math.sqrt((y_top*y_top)+((radius+x_side)*(radius+x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
-            # motor_speeds[self.FR] = (math.sqrt((y_top*y_top)+((radius-x_side)*(radius-x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
-            # motor_speeds[self.CL] = ((radius+x_side)*abs(ang_vel))*np.sign(lin_vel_x)
-            # motor_speeds[self.CR] = ((radius-x_side)*abs(ang_vel))*np.sign(lin_vel_x)
-            # motor_speeds[self.RL] = (math.sqrt((y_top*y_top)+((radius+x_side)*(radius+x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
-            # motor_speeds[self.RR] = (math.sqrt((y_top*y_top)+((radius-x_side)*(radius-x_side)))*abs(ang_vel))*np.sign(lin_vel_x)
             motor_speeds[self.FL] = lin_vel_x
             motor_speeds[self.FR] = lin_vel_x*frontRelation
             motor_speeds[self.CL] = lin_vel_x*frontCenterRelation
@@ -180,4 +149,5 @@ class Rover():
         steering_angles[self.RL] = int(np.rad2deg(steering_angles[self.RL]))
         steering_angles[self.RR] = int(np.rad2deg(steering_angles[self.RR]))
     
+
         return steering_angles, motor_speeds
