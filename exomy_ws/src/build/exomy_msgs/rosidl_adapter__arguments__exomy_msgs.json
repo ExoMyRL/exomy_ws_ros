@@ -1,8 +1,0 @@
-{
-  "package_name": "exomy_msgs",
-  "non_idl_tuples": [
-    "/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/exomy_msgs:msg/MotorCommands.msg",
-    "/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/exomy_msgs:msg/RoverCommand.msg",
-    "/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/exomy_msgs:msg/Screen.msg"
-  ]
-}
