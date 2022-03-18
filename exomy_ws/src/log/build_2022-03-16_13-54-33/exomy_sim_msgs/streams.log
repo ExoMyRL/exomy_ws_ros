@@ -1,0 +1,64 @@
+[0.068s] Invoking command in '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy_sim_msgs': CMAKE_PREFIX_PATH=/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/exomy_msgs /usr/bin/cmake --build /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy_sim_msgs -- -j4 -l4
+[0.251s] [  2%] Built target exomy_sim_msgs__cpp
+[0.258s] [ 12%] Built target exomy_sim_msgs__rosidl_generator_c
+[0.347s] [ 23%] Built target exomy_sim_msgs__rosidl_typesupport_introspection_cpp
+[0.370s] [ 33%] Built target exomy_sim_msgs__rosidl_typesupport_cpp
+[0.375s] [ 43%] Built target exomy_sim_msgs__rosidl_typesupport_c
+[0.391s] [ 53%] Built target exomy_sim_msgs__rosidl_typesupport_fastrtps_cpp
+[0.423s] [ 64%] Built target exomy_sim_msgs__rosidl_typesupport_introspection_c
+[0.452s] [ 74%] Built target exomy_sim_msgs__rosidl_typesupport_fastrtps_c
+[0.488s] [ 74%] Built target exomy_sim_msgs
+[0.531s] [ 76%] Built target exomy_sim_msgs__py
+[0.624s] [ 84%] Built target exomy_sim_msgs__python
+[0.712s] [ 89%] Built target exomy_sim_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.722s] [ 94%] Built target exomy_sim_msgs__rosidl_typesupport_c__pyext
+[0.731s] [100%] Built target exomy_sim_msgs__rosidl_typesupport_introspection_c__pyext
+[0.754s] Invoked command in '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy_sim_msgs' returned '0': CMAKE_PREFIX_PATH=/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/exomy_msgs /usr/bin/cmake --build /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy_sim_msgs -- -j4 -l4
+[0.902s] Invoking command in '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy_sim_msgs': CMAKE_PREFIX_PATH=/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/exomy_msgs /usr/bin/cmake --install /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy_sim_msgs
+[0.916s] -- Install configuration: ""
+[0.917s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs
+[0.917s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg
+[0.917s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail
+[0.917s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__functions.c
+[0.917s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__functions.c
+[0.918s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_generator_c.so
+[0.919s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs
+[0.920s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg
+[0.920s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail
+[0.920s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs
+[0.921s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg
+[0.921s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail
+[0.921s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/dds_fastrtps
+[0.921s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs
+[0.922s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg
+[0.922s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail
+[0.922s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__type_support.c
+[0.922s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__type_support.c
+[0.922s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_introspection_c.so
+[0.934s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_c.so
+[0.934s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs
+[0.934s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg
+[0.934s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail
+[0.934s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs
+[0.934s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg
+[0.935s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail
+[0.935s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__type_support.cpp
+[0.935s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__type_support.cpp
+[0.935s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_introspection_cpp.so
+[0.935s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_cpp.so
+[1.014s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/msg
+[1.014s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/msg/_joint_command_array_s.c
+[1.014s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/msg/_joint_command_s.c
+[1.014s] -- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/package.dsv
+[1.014s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_generator_cExport.cmake
+[1.014s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.015s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.015s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.015s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_cExport.cmake
+[1.015s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.015s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_generator_cppExport.cmake
+[1.015s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.015s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.016s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_cppExport.cmake
+[1.016s] -- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.035s] Invoked command in '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy_sim_msgs' returned '0': CMAKE_PREFIX_PATH=/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/exomy_msgs /usr/bin/cmake --install /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy_sim_msgs

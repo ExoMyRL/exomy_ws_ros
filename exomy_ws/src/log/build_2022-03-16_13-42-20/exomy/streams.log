@@ -1,0 +1,35 @@
+[1.129s] Invoking command in '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/exomy': CMAKE_PREFIX_PATH=/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/exomy_msgs LD_LIBRARY_PATH=/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins/lib:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib:/home/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/exomy/exomy_ws/install/exomy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy/lib/python3.8/site-packages:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../build/exomy build --build-base /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build install --prefix /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy --record /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/install.log --single-version-externally-managed
+[1.435s] running egg_info
+[1.436s] creating ../build/exomy/exomy.egg-info
+[1.436s] writing ../build/exomy/exomy.egg-info/PKG-INFO
+[1.438s] writing dependency_links to ../build/exomy/exomy.egg-info/dependency_links.txt
+[1.438s] writing entry points to ../build/exomy/exomy.egg-info/entry_points.txt
+[1.439s] writing requirements to ../build/exomy/exomy.egg-info/requires.txt
+[1.439s] writing top-level names to ../build/exomy/exomy.egg-info/top_level.txt
+[1.443s] writing manifest file '../build/exomy/exomy.egg-info/SOURCES.txt'
+[1.495s] reading manifest file '../build/exomy/exomy.egg-info/SOURCES.txt'
+[1.496s] writing manifest file '../build/exomy/exomy.egg-info/SOURCES.txt'
+[1.497s] running build
+[1.497s] running build_py
+[1.498s] creating /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build
+[1.498s] creating /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build/lib
+[1.499s] creating /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build/lib/exomy
+[1.499s] copying exomy/__init__.py -> /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build/lib/exomy
+[1.500s] copying exomy/robot_node_modified.py -> /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build/lib/exomy
+[1.501s] copying exomy/motor_node.py -> /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build/lib/exomy
+[1.502s] copying exomy/rover_modified.py -> /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build/lib/exomy
+[1.503s] copying exomy/motors.py -> /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build/lib/exomy
+[1.504s] copying exomy/locomotion_modes.py -> /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build/lib/exomy
+[1.505s] copying exomy/gamepad_parser_node.py -> /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build/lib/exomy
+[1.506s] copying exomy/rover.py -> /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build/lib/exomy
+[1.507s] copying exomy/robot_node.py -> /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build/lib/exomy
+[1.509s] running install
+[1.511s] running install_lib
+[1.517s] running install_data
+[1.518s] running install_egg_info
+[1.520s] removing '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy/lib/python3.8/site-packages/exomy-2.0.0-py3.8.egg-info' (and everything under it)
+[1.521s] Copying ../build/exomy/exomy.egg-info to /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy/lib/python3.8/site-packages/exomy-2.0.0-py3.8.egg-info
+[1.524s] running install_scripts
+[1.551s] Installing motor_node script to /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy/lib/exomy
+[1.552s] Installing robot_node_modified script to /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy/lib/exomy
+[1.552s] writing list of installed files to '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/install.log'

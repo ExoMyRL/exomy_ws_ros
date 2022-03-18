@@ -1,0 +1,21 @@
+[0.061s] Invoking command in '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/realsense_ros_gazebo': /usr/bin/cmake /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/realsense_ros_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_ros_gazebo
+[0.132s] CMake Error at CMakeLists.txt:4 (find_package):
+[0.132s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.132s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.132s]   CMake did not find one.
+[0.133s] 
+[0.133s]   Could not find a package configuration file provided by "catkin" with any
+[0.133s]   of the following names:
+[0.133s] 
+[0.133s]     catkinConfig.cmake
+[0.133s]     catkin-config.cmake
+[0.133s] 
+[0.134s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.134s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.134s]   provides a separate development package or SDK, be sure it has been
+[0.134s]   installed.
+[0.134s] 
+[0.134s] 
+[0.134s] -- Configuring incomplete, errors occurred!
+[0.135s] See also "/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/realsense_ros_gazebo/CMakeFiles/CMakeOutput.log".
+[0.138s] Invoked command in '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/realsense_ros_gazebo' returned '1': /usr/bin/cmake /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/realsense_ros_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_ros_gazebo

@@ -1,0 +1,35 @@
+[0.052s] Invoking command in '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/realsense_ros_gazebo': /usr/bin/cmake /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/realsense_ros_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_ros_gazebo
+[0.217s] -- The C compiler identification is GNU 9.3.0
+[0.353s] -- The CXX compiler identification is GNU 9.3.0
+[0.361s] -- Check for working C compiler: /usr/bin/cc
+[0.502s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.504s] -- Detecting C compiler ABI info
+[0.640s] -- Detecting C compiler ABI info - done
+[0.657s] -- Detecting C compile features
+[0.657s] -- Detecting C compile features - done
+[0.662s] -- Check for working CXX compiler: /usr/bin/c++
+[0.804s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.806s] -- Detecting CXX compiler ABI info
+[0.968s] -- Detecting CXX compiler ABI info - done
+[0.986s] -- Detecting CXX compile features
+[0.987s] -- Detecting CXX compile features - done
+[1.010s] CMake Error at CMakeLists.txt:4 (find_package):
+[1.010s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.010s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.010s]   CMake did not find one.
+[1.010s] 
+[1.011s]   Could not find a package configuration file provided by "catkin" with any
+[1.011s]   of the following names:
+[1.011s] 
+[1.011s]     catkinConfig.cmake
+[1.011s]     catkin-config.cmake
+[1.012s] 
+[1.012s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.012s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.012s]   provides a separate development package or SDK, be sure it has been
+[1.012s]   installed.
+[1.012s] 
+[1.013s] 
+[1.013s] -- Configuring incomplete, errors occurred!
+[1.013s] See also "/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/realsense_ros_gazebo/CMakeFiles/CMakeOutput.log".
+[1.018s] Invoked command in '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/realsense_ros_gazebo' returned '1': /usr/bin/cmake /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/realsense_ros_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_ros_gazebo

@@ -1,0 +1,60 @@
+[  2%] Built target exomy_sim_msgs__cpp
+[ 12%] Built target exomy_sim_msgs__rosidl_generator_c
+[ 23%] Built target exomy_sim_msgs__rosidl_typesupport_introspection_c
+[ 33%] Built target exomy_sim_msgs__rosidl_typesupport_c
+[ 46%] Built target exomy_sim_msgs__rosidl_typesupport_fastrtps_cpp
+[ 56%] Built target exomy_sim_msgs__rosidl_typesupport_cpp
+[ 64%] Built target exomy_sim_msgs__rosidl_typesupport_introspection_cpp
+[ 74%] Built target exomy_sim_msgs__rosidl_typesupport_fastrtps_c
+[ 74%] Built target exomy_sim_msgs
+[ 76%] Built target exomy_sim_msgs__py
+[ 84%] Built target exomy_sim_msgs__python
+[ 89%] Built target exomy_sim_msgs__rosidl_typesupport_fastrtps_c__pyext
+[ 94%] Built target exomy_sim_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target exomy_sim_msgs__rosidl_typesupport_c__pyext
+-- Install configuration: ""
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__functions.c
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__functions.c
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_generator_c.so
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/dds_fastrtps
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__type_support.c
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__type_support.c
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_c.so
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__type_support.cpp
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__type_support.cpp
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/msg
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/msg/_joint_command_array_s.c
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/msg/_joint_command_s.c
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/package.dsv
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_cppExport-noconfig.cmake

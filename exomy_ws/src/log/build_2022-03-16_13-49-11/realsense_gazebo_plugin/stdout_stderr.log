@@ -1,0 +1,27 @@
+[100%] Built target realsense_gazebo_plugin
+-- Install configuration: ""
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/lib/librealsense_gazebo_plugin.so
+-- Set runtime path of "/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/lib/librealsense_gazebo_plugin.so" to ""
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/include/
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin/RealSensePlugin.h
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/include//realsense_gazebo_plugin/gazebo_ros_realsense.h
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.sh
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/library_path.dsv
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/share/ament_index/resource_index/package_run_dependencies/realsense_gazebo_plugin
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/share/ament_index/resource_index/parent_prefix_path/realsense_gazebo_plugin
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.sh
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.sh
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/environment/path.dsv
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.bash
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.sh
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.zsh
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/local_setup.dsv
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.dsv
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/share/ament_index/resource_index/packages/realsense_gazebo_plugin
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig.cmake
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig-version.cmake
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.xml

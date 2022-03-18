@@ -1,0 +1,2 @@
+[0.058s] Invoking command in '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/realsense_gazebo_plugin': /usr/bin/cmake --build /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/realsense_gazebo_plugin
+[0.297s] [100%] Built target realsense_gazebo_plugin

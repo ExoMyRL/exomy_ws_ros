@@ -1,0 +1,1 @@
+Invoking command in '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/build/realsense_ros_gazebo': /usr/bin/cmake /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/realsense_ros_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/install/realsense_ros_gazebo

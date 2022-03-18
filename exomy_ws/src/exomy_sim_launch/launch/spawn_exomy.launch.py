@@ -8,7 +8,7 @@ from launch.substitutions import LaunchConfiguration
 
 def generate_launch_description():
     # Get paths to config files
-    urdf_file = os.path.join(get_package_share_directory('exomy_sim'),'models/exomy_model/exomy_model.urdf')
+    urdf_file = os.path.join(get_package_share_directory('exomy_sim'),'models/exomy_model/exomy_model_modified.urdf')
 
     # Spawn rover
     spawn_rover = Node(

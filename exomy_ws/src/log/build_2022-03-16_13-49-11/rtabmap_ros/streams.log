@@ -1,0 +1,89 @@
+[0.054s] Invoking command in '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/rtabmap_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/src/rtabmap_ros -DCMAKE_INSTALL_PREFIX=/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rtabmap_ros
+[0.170s] -- The C compiler identification is GNU 9.3.0
+[0.342s] -- The CXX compiler identification is GNU 9.3.0
+[0.352s] -- Check for working C compiler: /usr/bin/cc
+[0.515s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.516s] -- Detecting C compiler ABI info
+[0.642s] -- Detecting C compiler ABI info - done
+[0.653s] -- Detecting C compile features
+[0.654s] -- Detecting C compile features - done
+[0.673s] -- Check for working CXX compiler: /usr/bin/c++
+[0.807s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.807s] -- Detecting CXX compiler ABI info
+[0.971s] -- Detecting CXX compiler ABI info - done
+[0.986s] -- Detecting CXX compile features
+[0.986s] -- Detecting CXX compile features - done
+[0.992s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.031s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.032s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.335s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[1.390s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.407s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.610s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.672s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.828s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.890s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.933s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.038s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.041s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.043s] -- Looking for pthread.h
+[2.311s] -- Looking for pthread.h - found
+[2.311s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.568s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.568s] -- Looking for pthread_create in pthreads
+[2.777s] -- Looking for pthread_create in pthreads - not found
+[2.777s] -- Looking for pthread_create in pthread
+[2.980s] -- Looking for pthread_create in pthread - found
+[2.980s] -- Found Threads: TRUE  
+[3.532s] -- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[3.684s] -- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+[3.716s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.996s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[4.014s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[4.128s] -- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)
+[4.715s] -- Found stereo_msgs: 2.0.5 (/opt/ros/foxy/share/stereo_msgs/cmake)
+[4.946s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[5.102s] -- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+[5.221s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[5.243s] -- Found tf2_eigen: 0.13.13 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[5.884s] -- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)
+[5.897s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[6.337s] -- Found image_geometry: 2.2.1 (/opt/ros/foxy/share/image_geometry/cmake)
+[6.403s] CMake Warning at CMakeLists.txt:53 (find_package):
+[6.403s]   By not providing "Findoctomap_msgs.cmake" in CMAKE_MODULE_PATH this project
+[6.403s]   has asked CMake to find a package configuration file provided by
+[6.404s]   "octomap_msgs", but CMake did not find one.
+[6.404s] 
+[6.404s]   Could not find a package configuration file provided by "octomap_msgs" with
+[6.405s]   any of the following names:
+[6.406s] 
+[6.406s]     octomap_msgsConfig.cmake
+[6.407s]     octomap_msgs-config.cmake
+[6.407s] 
+[6.408s]   Add the installation prefix of "octomap_msgs" to CMAKE_PREFIX_PATH or set
+[6.408s]   "octomap_msgs_DIR" to a directory containing one of the above files.  If
+[6.408s]   "octomap_msgs" provides a separate development package or SDK, be sure it
+[6.409s]   has been installed.
+[6.409s] 
+[6.409s] 
+[6.443s] CMake Error at CMakeLists.txt:59 (find_package):
+[6.444s]   By not providing "FindRTABMap.cmake" in CMAKE_MODULE_PATH this project has
+[6.444s]   asked CMake to find a package configuration file provided by "RTABMap", but
+[6.444s]   CMake did not find one.
+[6.444s] 
+[6.445s]   Could not find a package configuration file provided by "RTABMap"
+[6.445s]   (requested version 0.20.18) with any of the following names:
+[6.445s] 
+[6.445s]     RTABMapConfig.cmake
+[6.446s]     rtabmap-config.cmake
+[6.446s] 
+[6.446s]   Add the installation prefix of "RTABMap" to CMAKE_PREFIX_PATH or set
+[6.446s]   "RTABMap_DIR" to a directory containing one of the above files.  If
+[6.447s]   "RTABMap" provides a separate development package or SDK, be sure it has
+[6.447s]   been installed.
+[6.447s] 
+[6.447s] 
+[6.451s] -- Configuring incomplete, errors occurred!
+[6.452s] See also "/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/rtabmap_ros/CMakeFiles/CMakeOutput.log".
+[6.452s] See also "/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/rtabmap_ros/CMakeFiles/CMakeError.log".
+[6.474s] Invoked command in '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/rtabmap_ros' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/src/rtabmap_ros -DCMAKE_INSTALL_PREFIX=/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rtabmap_ros

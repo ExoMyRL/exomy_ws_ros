@@ -1,0 +1,63 @@
+[0.089s] Invoking command in '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/rtabmap_ros': CMAKE_PREFIX_PATH=/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/exomy_msgs /usr/bin/cmake /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/src/rtabmap_ros -DCMAKE_INSTALL_PREFIX=/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rtabmap_ros
+[0.119s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.162s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.460s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.498s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.507s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.788s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.824s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.839s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.911s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.915s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.199s] -- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.297s] -- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+[1.331s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.512s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[1.533s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.636s] -- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)
+[2.142s] -- Found stereo_msgs: 2.0.5 (/opt/ros/foxy/share/stereo_msgs/cmake)
+[2.350s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[2.480s] -- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+[2.553s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[2.574s] -- Found tf2_eigen: 0.13.13 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[3.135s] -- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)
+[3.139s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[3.384s] -- Found image_geometry: 2.2.1 (/opt/ros/foxy/share/image_geometry/cmake)
+[3.416s] CMake Warning at CMakeLists.txt:53 (find_package):
+[3.416s]   By not providing "Findoctomap_msgs.cmake" in CMAKE_MODULE_PATH this project
+[3.416s]   has asked CMake to find a package configuration file provided by
+[3.416s]   "octomap_msgs", but CMake did not find one.
+[3.416s] 
+[3.416s]   Could not find a package configuration file provided by "octomap_msgs" with
+[3.416s]   any of the following names:
+[3.416s] 
+[3.416s]     octomap_msgsConfig.cmake
+[3.417s]     octomap_msgs-config.cmake
+[3.417s] 
+[3.417s]   Add the installation prefix of "octomap_msgs" to CMAKE_PREFIX_PATH or set
+[3.417s]   "octomap_msgs_DIR" to a directory containing one of the above files.  If
+[3.417s]   "octomap_msgs" provides a separate development package or SDK, be sure it
+[3.417s]   has been installed.
+[3.417s] 
+[3.417s] 
+[3.443s] CMake Error at CMakeLists.txt:59 (find_package):
+[3.443s]   By not providing "FindRTABMap.cmake" in CMAKE_MODULE_PATH this project has
+[3.443s]   asked CMake to find a package configuration file provided by "RTABMap", but
+[3.443s]   CMake did not find one.
+[3.443s] 
+[3.443s]   Could not find a package configuration file provided by "RTABMap"
+[3.443s]   (requested version 0.20.18) with any of the following names:
+[3.443s] 
+[3.443s]     RTABMapConfig.cmake
+[3.443s]     rtabmap-config.cmake
+[3.444s] 
+[3.444s]   Add the installation prefix of "RTABMap" to CMAKE_PREFIX_PATH or set
+[3.444s]   "RTABMap_DIR" to a directory containing one of the above files.  If
+[3.444s]   "RTABMap" provides a separate development package or SDK, be sure it has
+[3.444s]   been installed.
+[3.444s] 
+[3.444s] 
+[3.449s] -- Configuring incomplete, errors occurred!
+[3.449s] See also "/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/rtabmap_ros/CMakeFiles/CMakeOutput.log".
+[3.449s] See also "/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/rtabmap_ros/CMakeFiles/CMakeError.log".
+[3.476s] Invoked command in '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/rtabmap_ros' returned '1': CMAKE_PREFIX_PATH=/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/exomy_msgs /usr/bin/cmake /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/src/rtabmap_ros -DCMAKE_INSTALL_PREFIX=/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rtabmap_ros

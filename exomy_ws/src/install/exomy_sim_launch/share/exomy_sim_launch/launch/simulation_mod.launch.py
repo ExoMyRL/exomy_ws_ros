@@ -12,7 +12,7 @@ def generate_launch_description():
     sim_config = os.path.join(get_package_share_directory('exomy_sim'),'rviz/simulation.rviz')
     world = os.path.join(get_package_share_directory('exomy_sim'), 'worlds/mars_yard.world')
 
-    urdf_file = os.path.join(get_package_share_directory('exomy_sim'),'models/exomy_model/exomy_model.urdf')
+    urdf_file = os.path.join(get_package_share_directory('exomy_sim'),'models/exomy_model/exomy_model_modified.urdf')
     # Some packages require the path to the urdf file, others require the opened file:
     with open(urdf_file, 'r') as infp:
             robot_desc = infp.read()
@@ -23,6 +23,22 @@ def generate_launch_description():
             default_value='True',
             description='Use simulation (Gazebo) clock if true')
 
+    # config = os.path.join(
+    #     get_package_share_directory('exomy'),
+    #     'config',
+    #     'mapper_params_online_sync.yaml'
+    # )
+
+    
+    # start_sync_slam_toolbox_node = Node(
+    #     parameters=[
+    #       config,
+    #       {'use_sim_time': use_sim_time}
+    #     ],
+    #     package='slam_toolbox',
+    #     node_executable='sync_slam_toolbox_node',
+    #     name='slam_toolbox',
+    #     output='screen')
 
     robot = Node(
         package='exomy',
@@ -86,6 +102,8 @@ def generate_launch_description():
         declare_use_sim_time_cmd,
 
         # Declare nodes
+        # config,
+        # start_sync_slam_toolbox_node,
         robot,
         joint_command_node,
         robot_state_publisher,

@@ -1,0 +1,825 @@
+[0.000000] (-) TimerEvent: {}
+[0.000195] (exomy_msgs) JobQueued: {'identifier': 'exomy_msgs', 'dependencies': OrderedDict()}
+[0.000406] (exomy_sim_msgs) JobQueued: {'identifier': 'exomy_sim_msgs', 'dependencies': OrderedDict()}
+[0.000478] (realsense_gazebo_plugin) JobQueued: {'identifier': 'realsense_gazebo_plugin', 'dependencies': OrderedDict()}
+[0.000524] (rtabmap_ros) JobQueued: {'identifier': 'rtabmap_ros', 'dependencies': OrderedDict()}
+[0.000555] (exomy) JobQueued: {'identifier': 'exomy', 'dependencies': OrderedDict([('exomy_msgs', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs')])}
+[0.000674] (exomy_sim) JobQueued: {'identifier': 'exomy_sim', 'dependencies': OrderedDict([('exomy_msgs', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs'), ('exomy_sim_msgs', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs')])}
+[0.000722] (rover_gazebo_plugins) JobQueued: {'identifier': 'rover_gazebo_plugins', 'dependencies': OrderedDict([('exomy_sim_msgs', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs')])}
+[0.000743] (exomy_sim_launch) JobQueued: {'identifier': 'exomy_sim_launch', 'dependencies': OrderedDict([('exomy_msgs', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs'), ('exomy_sim_msgs', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs'), ('exomy', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy'), ('exomy_sim', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim')])}
+[0.000834] (exomy_msgs) JobStarted: {'identifier': 'exomy_msgs'}
+[0.012597] (exomy_sim_msgs) JobStarted: {'identifier': 'exomy_sim_msgs'}
+[0.023216] (realsense_gazebo_plugin) JobStarted: {'identifier': 'realsense_gazebo_plugin'}
+[0.034734] (rtabmap_ros) JobStarted: {'identifier': 'rtabmap_ros'}
+[0.052045] (exomy_msgs) JobProgress: {'identifier': 'exomy_msgs', 'progress': 'cmake'}
+[0.053876] (exomy_msgs) JobProgress: {'identifier': 'exomy_msgs', 'progress': 'build'}
+[0.055979] (exomy_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy_msgs'], 'cwd': '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy_msgs', 'env': OrderedDict([('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('GREP_COLOR', '1;33'), ('LD_LIBRARY_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins/lib:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib:/home/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/exomy/exomy_ws/install/exomy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/root'), ('OLDPWD', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build'), ('LESS', '-R'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'exfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('MAKEFLAGS', '-j6'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install:/home/exomy/exomy_ws/install'), ('LOGNAME', 'root'), ('EXOMY_WS', '/home/exomy/exomy_ws'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim/share/exomy_sim/models:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim/share:/home/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models:/home/exomy/exomy_ws/install/exomy_sim/share:/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/exomy/.npm-global/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'di=34;40:ln=35;40:so=32;40:pi=33;40:ex=31;40:bd=34;46:cd=34;43:su=0;41:sg=0;46:tw=0;42:ow=0;43:'), ('AMENT_PREFIX_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/exomy:/home/exomy/exomy_ws/install/exomy_msgs:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim/share/exomy_sim/worlds:/home/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy_msgs'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy/lib/python3.8/site-packages:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('TZ', 'Europe/Amsterdam'), ('COLCON', '1'), ('NPM_CONFIG_PREFIX', '/home/exomy/.npm-global'), ('CMAKE_PREFIX_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/exomy_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy')]), 'shell': False}
+[0.069342] (exomy_sim_msgs) JobProgress: {'identifier': 'exomy_sim_msgs', 'progress': 'cmake'}
+[0.073001] (exomy_sim_msgs) JobProgress: {'identifier': 'exomy_sim_msgs', 'progress': 'build'}
+[0.073947] (exomy_sim_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy_sim_msgs'], 'cwd': '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy_sim_msgs', 'env': OrderedDict([('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('GREP_COLOR', '1;33'), ('LD_LIBRARY_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins/lib:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib:/home/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/exomy/exomy_ws/install/exomy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/root'), ('OLDPWD', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build'), ('LESS', '-R'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'exfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('MAKEFLAGS', '-j6'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install:/home/exomy/exomy_ws/install'), ('LOGNAME', 'root'), ('EXOMY_WS', '/home/exomy/exomy_ws'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim/share/exomy_sim/models:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim/share:/home/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models:/home/exomy/exomy_ws/install/exomy_sim/share:/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/exomy/.npm-global/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'di=34;40:ln=35;40:so=32;40:pi=33;40:ex=31;40:bd=34;46:cd=34;43:su=0;41:sg=0;46:tw=0;42:ow=0;43:'), ('AMENT_PREFIX_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/exomy:/home/exomy/exomy_ws/install/exomy_msgs:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim/share/exomy_sim/worlds:/home/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy_sim_msgs'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy/lib/python3.8/site-packages:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('TZ', 'Europe/Amsterdam'), ('COLCON', '1'), ('NPM_CONFIG_PREFIX', '/home/exomy/.npm-global'), ('CMAKE_PREFIX_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/exomy_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy')]), 'shell': False}
+[0.078242] (realsense_gazebo_plugin) JobProgress: {'identifier': 'realsense_gazebo_plugin', 'progress': 'cmake'}
+[0.079301] (realsense_gazebo_plugin) JobProgress: {'identifier': 'realsense_gazebo_plugin', 'progress': 'build'}
+[0.082114] (realsense_gazebo_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/realsense_gazebo_plugin'], 'cwd': '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/realsense_gazebo_plugin', 'env': OrderedDict([('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('GREP_COLOR', '1;33'), ('LD_LIBRARY_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins/lib:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib:/home/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/exomy/exomy_ws/install/exomy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/root'), ('OLDPWD', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build'), ('LESS', '-R'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'exfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('MAKEFLAGS', '-j6'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install:/home/exomy/exomy_ws/install'), ('LOGNAME', 'root'), ('EXOMY_WS', '/home/exomy/exomy_ws'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim/share/exomy_sim/models:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim/share:/home/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models:/home/exomy/exomy_ws/install/exomy_sim/share:/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/exomy/.npm-global/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'di=34;40:ln=35;40:so=32;40:pi=33;40:ex=31;40:bd=34;46:cd=34;43:su=0;41:sg=0;46:tw=0;42:ow=0;43:'), ('AMENT_PREFIX_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/exomy:/home/exomy/exomy_ws/install/exomy_msgs:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim/share/exomy_sim/worlds:/home/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/realsense_gazebo_plugin'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy/lib/python3.8/site-packages:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('TZ', 'Europe/Amsterdam'), ('COLCON', '1'), ('NPM_CONFIG_PREFIX', '/home/exomy/.npm-global'), ('CMAKE_PREFIX_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/exomy_msgs')]), 'shell': False}
+[0.088964] (rtabmap_ros) JobProgress: {'identifier': 'rtabmap_ros', 'progress': 'cmake'}
+[0.089886] (rtabmap_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/src/rtabmap_ros', '-DCMAKE_INSTALL_PREFIX=/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rtabmap_ros'], 'cwd': '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/rtabmap_ros', 'env': OrderedDict([('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('GREP_COLOR', '1;33'), ('LD_LIBRARY_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins/lib:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib:/home/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/exomy/exomy_ws/install/exomy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/root'), ('OLDPWD', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build'), ('LESS', '-R'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'exfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('MAKEFLAGS', '-j6'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install:/home/exomy/exomy_ws/install'), ('LOGNAME', 'root'), ('EXOMY_WS', '/home/exomy/exomy_ws'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim/share/exomy_sim/models:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim/share:/home/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models:/home/exomy/exomy_ws/install/exomy_sim/share:/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/exomy/.npm-global/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'di=34;40:ln=35;40:so=32;40:pi=33;40:ex=31;40:bd=34;46:cd=34;43:su=0;41:sg=0;46:tw=0;42:ow=0;43:'), ('AMENT_PREFIX_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/exomy:/home/exomy/exomy_ws/install/exomy_msgs:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim/share/exomy_sim/worlds:/home/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/rtabmap_ros'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy/lib/python3.8/site-packages:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('TZ', 'Europe/Amsterdam'), ('COLCON', '1'), ('NPM_CONFIG_PREFIX', '/home/exomy/.npm-global'), ('CMAKE_PREFIX_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/exomy_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy')]), 'shell': False}
+[0.098551] (-) TimerEvent: {}
+[0.121982] (rtabmap_ros) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.158238] (rtabmap_ros) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.183152] (exomy_msgs) StdoutLine: {'line': b'[  2%] Built target exomy_msgs__cpp\n'}
+[0.187275] (exomy_msgs) StdoutLine: {'line': b'[ 12%] Built target exomy_msgs__rosidl_generator_c\n'}
+[0.198669] (-) TimerEvent: {}
+[0.203405] (exomy_sim_msgs) StdoutLine: {'line': b'[  2%] Built target exomy_sim_msgs__cpp\n'}
+[0.215877] (realsense_gazebo_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target realsense_gazebo_plugin\x1b[0m\n'}
+[0.222556] (exomy_sim_msgs) StdoutLine: {'line': b'[ 12%] Built target exomy_sim_msgs__rosidl_generator_c\n'}
+[0.294248] (exomy_msgs) StdoutLine: {'line': b'[ 23%] Built target exomy_msgs__rosidl_typesupport_cpp\n'}
+[0.299358] (-) TimerEvent: {}
+[0.312220] (exomy_msgs) StdoutLine: {'line': b'[ 36%] Built target exomy_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.312873] (exomy_msgs) StdoutLine: {'line': b'[ 44%] Built target exomy_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.328095] (exomy_msgs) StdoutLine: {'line': b'[ 55%] Built target exomy_msgs__rosidl_typesupport_c\n'}
+[0.344678] (exomy_sim_msgs) StdoutLine: {'line': b'[ 23%] Built target exomy_sim_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.347287] (exomy_msgs) StdoutLine: {'line': b'[ 65%] Built target exomy_msgs__rosidl_typesupport_introspection_c\n'}
+[0.374648] (exomy_msgs) StdoutLine: {'line': b'[ 76%] Built target exomy_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.381212] (exomy_sim_msgs) StdoutLine: {'line': b'[ 46%] Built target exomy_sim_msgs__rosidl_typesupport_introspection_c\n'}
+[0.381870] (exomy_sim_msgs) StdoutLine: {'line': b'[ 53%] Built target exomy_sim_msgs__rosidl_typesupport_cpp\n'}
+[0.382230] (exomy_sim_msgs) StdoutLine: {'line': b'[ 53%] Built target exomy_sim_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.399481] (-) TimerEvent: {}
+[0.400199] (exomy_sim_msgs) StdoutLine: {'line': b'[ 64%] Built target exomy_sim_msgs__rosidl_typesupport_c\n'}
+[0.409965] (exomy_msgs) StdoutLine: {'line': b'[ 76%] Built target exomy_msgs\n'}
+[0.437485] (exomy_sim_msgs) StdoutLine: {'line': b'[ 74%] Built target exomy_sim_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.444309] (exomy_msgs) StdoutLine: {'line': b'[ 78%] Built target exomy_msgs__py\n'}
+[0.476977] (exomy_sim_msgs) StdoutLine: {'line': b'[ 74%] Built target exomy_sim_msgs\n'}
+[0.497912] (exomy_msgs) StdoutLine: {'line': b'[ 87%] Built target exomy_msgs__python\n'}
+[0.499786] (-) TimerEvent: {}
+[0.507573] (rtabmap_ros) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)\n'}
+[0.544291] (exomy_sim_msgs) StdoutLine: {'line': b'[ 76%] Built target exomy_sim_msgs__py\n'}
+[0.553840] (rtabmap_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.556177] (exomy_msgs) StdoutLine: {'line': b'[ 91%] Built target exomy_msgs__rosidl_typesupport_c__pyext\n'}
+[0.558520] (rtabmap_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.577482] (exomy_msgs) StdoutLine: {'line': b'[ 95%] Built target exomy_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.593530] (exomy_msgs) StdoutLine: {'line': b'[100%] Built target exomy_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.600588] (-) TimerEvent: {}
+[0.601983] (realsense_gazebo_plugin) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.o\x1b[0m\n'}
+[0.606266] (realsense_gazebo_plugin) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.o\x1b[0m\n'}
+[0.617336] (exomy_msgs) CommandEnded: {'returncode': 0}
+[0.623500] (exomy_sim_msgs) StdoutLine: {'line': b'[ 84%] Built target exomy_sim_msgs__python\n'}
+[0.698244] (exomy_sim_msgs) StdoutLine: {'line': b'[ 89%] Built target exomy_sim_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.700836] (-) TimerEvent: {}
+[0.712683] (exomy_sim_msgs) StdoutLine: {'line': b'[ 94%] Built target exomy_sim_msgs__rosidl_typesupport_c__pyext\n'}
+[0.743420] (exomy_sim_msgs) StdoutLine: {'line': b'[100%] Built target exomy_sim_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.766791] (exomy_sim_msgs) CommandEnded: {'returncode': 0}
+[0.801716] (-) TimerEvent: {}
+[0.840455] (rtabmap_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.897839] (rtabmap_ros) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.902018] (-) TimerEvent: {}
+[0.919352] (rtabmap_ros) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.984226] (rtabmap_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.988098] (rtabmap_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.002529] (-) TimerEvent: {}
+[1.105795] (exomy_sim_msgs) JobProgress: {'identifier': 'exomy_sim_msgs', 'progress': 'install'}
+[1.106281] (-) TimerEvent: {}
+[1.130769] (exomy_sim_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy_sim_msgs'], 'cwd': '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy_sim_msgs', 'env': OrderedDict([('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('GREP_COLOR', '1;33'), ('LD_LIBRARY_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins/lib:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib:/home/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/exomy/exomy_ws/install/exomy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/root'), ('OLDPWD', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build'), ('LESS', '-R'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'exfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('MAKEFLAGS', '-j6'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install:/home/exomy/exomy_ws/install'), ('LOGNAME', 'root'), ('EXOMY_WS', '/home/exomy/exomy_ws'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim/share/exomy_sim/models:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim/share:/home/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models:/home/exomy/exomy_ws/install/exomy_sim/share:/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/exomy/.npm-global/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'di=34;40:ln=35;40:so=32;40:pi=33;40:ex=31;40:bd=34;46:cd=34;43:su=0;41:sg=0;46:tw=0;42:ow=0;43:'), ('AMENT_PREFIX_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/exomy:/home/exomy/exomy_ws/install/exomy_msgs:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim/share/exomy_sim/worlds:/home/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy_sim_msgs'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy/lib/python3.8/site-packages:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('TZ', 'Europe/Amsterdam'), ('COLCON', '1'), ('NPM_CONFIG_PREFIX', '/home/exomy/.npm-global'), ('CMAKE_PREFIX_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/exomy_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy')]), 'shell': False}
+[1.153065] (exomy_sim_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.153455] (exomy_sim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs\n'}
+[1.153687] (exomy_sim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg\n'}
+[1.153800] (exomy_sim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail\n'}
+[1.153929] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__functions.c\n'}
+[1.154141] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__functions.c\n'}
+[1.154679] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_generator_c.so\n'}
+[1.155326] (exomy_sim_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_generator_c.so" to ""\n'}
+[1.155552] (exomy_sim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs\n'}
+[1.155814] (exomy_sim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg\n'}
+[1.156038] (exomy_sim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail\n'}
+[1.156189] (exomy_sim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs\n'}
+[1.156350] (exomy_sim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg\n'}
+[1.156513] (exomy_sim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail\n'}
+[1.156958] (exomy_sim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/dds_fastrtps\n'}
+[1.157895] (exomy_sim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs\n'}
+[1.158685] (exomy_sim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg\n'}
+[1.158923] (exomy_sim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail\n'}
+[1.159237] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__type_support.c\n'}
+[1.159430] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__type_support.c\n'}
+[1.159836] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.161110] (exomy_sim_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[1.161574] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_c.so\n'}
+[1.162171] (exomy_sim_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_c.so" to ""\n'}
+[1.162488] (exomy_sim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs\n'}
+[1.162992] (exomy_sim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg\n'}
+[1.163157] (exomy_sim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail\n'}
+[1.163495] (exomy_sim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs\n'}
+[1.163733] (exomy_sim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg\n'}
+[1.163849] (exomy_sim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail\n'}
+[1.164085] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__type_support.cpp\n'}
+[1.164212] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__type_support.cpp\n'}
+[1.164977] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.166103] (exomy_sim_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[1.166390] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_cpp.so\n'}
+[1.167007] (exomy_sim_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[1.206521] (-) TimerEvent: {}
+[1.217485] (exomy_sim_msgs) StdoutLine: {'line': b"Compiling '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/__init__.py'...\n"}
+[1.223075] (exomy_sim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/msg\n'}
+[1.223339] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/msg/_joint_command_array_s.c\n'}
+[1.223575] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/msg/_joint_command_s.c\n'}
+[1.225684] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/package.dsv\n'}
+[1.226220] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_generator_cExport.cmake\n'}
+[1.226560] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.227021] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.227360] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.227784] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.228101] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.228533] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.229052] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.229393] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.229801] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.230153] (exomy_sim_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.234406] (exomy_sim_msgs) CommandEnded: {'returncode': 0}
+[1.238518] (rtabmap_ros) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[1.306845] (-) TimerEvent: {}
+[1.325919] (rtabmap_ros) StdoutLine: {'line': b'-- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[1.334922] (exomy_msgs) JobProgress: {'identifier': 'exomy_msgs', 'progress': 'install'}
+[1.339748] (exomy_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy_msgs'], 'cwd': '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy_msgs', 'env': OrderedDict([('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('GREP_COLOR', '1;33'), ('LD_LIBRARY_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins/lib:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib:/home/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/exomy/exomy_ws/install/exomy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/root'), ('OLDPWD', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build'), ('LESS', '-R'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'exfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('MAKEFLAGS', '-j6'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install:/home/exomy/exomy_ws/install'), ('LOGNAME', 'root'), ('EXOMY_WS', '/home/exomy/exomy_ws'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim/share/exomy_sim/models:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim/share:/home/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models:/home/exomy/exomy_ws/install/exomy_sim/share:/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/exomy/.npm-global/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'di=34;40:ln=35;40:so=32;40:pi=33;40:ex=31;40:bd=34;46:cd=34;43:su=0;41:sg=0;46:tw=0;42:ow=0;43:'), ('AMENT_PREFIX_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/exomy:/home/exomy/exomy_ws/install/exomy_msgs:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim/share/exomy_sim/worlds:/home/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy_msgs'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy/lib/python3.8/site-packages:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('TZ', 'Europe/Amsterdam'), ('COLCON', '1'), ('NPM_CONFIG_PREFIX', '/home/exomy/.npm-global'), ('CMAKE_PREFIX_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/exomy_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy')]), 'shell': False}
+[1.347139] (rtabmap_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.357938] (exomy_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.358749] (exomy_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs\n'}
+[1.360279] (exomy_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs/msg\n'}
+[1.360837] (exomy_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs/msg/detail\n'}
+[1.361165] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs/msg/detail/screen__functions.c\n'}
+[1.361636] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs/msg/detail/motor_commands__functions.c\n'}
+[1.362034] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs/msg/detail/rover_command__functions.c\n'}
+[1.362791] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib/libexomy_msgs__rosidl_generator_c.so\n'}
+[1.363395] (exomy_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib/libexomy_msgs__rosidl_generator_c.so" to ""\n'}
+[1.363637] (exomy_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs\n'}
+[1.363799] (exomy_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs/msg\n'}
+[1.364154] (exomy_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs/msg/detail\n'}
+[1.364382] (exomy_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs\n'}
+[1.364516] (exomy_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs/msg\n'}
+[1.364716] (exomy_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs/msg/detail\n'}
+[1.365041] (exomy_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs/msg/detail/dds_fastrtps\n'}
+[1.365601] (exomy_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs\n'}
+[1.365895] (exomy_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs/msg\n'}
+[1.366036] (exomy_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs/msg/detail\n'}
+[1.366216] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs/msg/detail/motor_commands__type_support.c\n'}
+[1.366347] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs/msg/detail/screen__type_support.c\n'}
+[1.366514] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs/msg/detail/rover_command__type_support.c\n'}
+[1.367099] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib/libexomy_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.368246] (exomy_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib/libexomy_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[1.368853] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib/libexomy_msgs__rosidl_typesupport_c.so\n'}
+[1.369566] (exomy_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib/libexomy_msgs__rosidl_typesupport_c.so" to ""\n'}
+[1.369809] (exomy_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs\n'}
+[1.370024] (exomy_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs/msg\n'}
+[1.370165] (exomy_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs/msg/detail\n'}
+[1.370374] (exomy_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs\n'}
+[1.370545] (exomy_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs/msg\n'}
+[1.370688] (exomy_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs/msg/detail\n'}
+[1.370781] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs/msg/detail/motor_commands__type_support.cpp\n'}
+[1.371420] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs/msg/detail/screen__type_support.cpp\n'}
+[1.371843] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/include/exomy_msgs/msg/detail/rover_command__type_support.cpp\n'}
+[1.372701] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib/libexomy_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.373901] (exomy_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib/libexomy_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[1.374356] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib/libexomy_msgs__rosidl_typesupport_cpp.so\n'}
+[1.375710] (exomy_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib/libexomy_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[1.406978] (-) TimerEvent: {}
+[1.431441] (exomy_msgs) StdoutLine: {'line': b"Compiling '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib/python3.8/site-packages/exomy_msgs/__init__.py'...\n"}
+[1.438096] (exomy_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib/python3.8/site-packages/exomy_msgs/msg\n'}
+[1.438414] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib/python3.8/site-packages/exomy_msgs/msg/_motor_commands_s.c\n'}
+[1.438623] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib/python3.8/site-packages/exomy_msgs/msg/_rover_command_s.c\n'}
+[1.438794] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib/python3.8/site-packages/exomy_msgs/msg/_screen_s.c\n'}
+[1.442006] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/share/exomy_msgs/package.dsv\n'}
+[1.443235] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/share/exomy_msgs/cmake/exomy_msgs__rosidl_generator_cExport.cmake\n'}
+[1.443646] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/share/exomy_msgs/cmake/exomy_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.444351] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/share/exomy_msgs/cmake/exomy_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.445057] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/share/exomy_msgs/cmake/exomy_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.445436] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/share/exomy_msgs/cmake/exomy_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.445754] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/share/exomy_msgs/cmake/exomy_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.446206] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/share/exomy_msgs/cmake/exomy_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.446648] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/share/exomy_msgs/cmake/exomy_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.446998] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/share/exomy_msgs/cmake/exomy_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.447485] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/share/exomy_msgs/cmake/exomy_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.447925] (exomy_msgs) StdoutLine: {'line': b'-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/share/exomy_msgs/cmake/exomy_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.454383] (exomy_msgs) CommandEnded: {'returncode': 0}
+[1.508074] (-) TimerEvent: {}
+[1.570110] (rtabmap_ros) StdoutLine: {'line': b'-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[1.589471] (rtabmap_ros) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[1.608530] (-) TimerEvent: {}
+[1.707644] (rtabmap_ros) StdoutLine: {'line': b'-- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)\n'}
+[1.708707] (-) TimerEvent: {}
+[1.721433] (exomy_sim_msgs) JobEnded: {'identifier': 'exomy_sim_msgs', 'rc': 0}
+[1.725160] (rover_gazebo_plugins) JobStarted: {'identifier': 'rover_gazebo_plugins'}
+[1.753077] (rover_gazebo_plugins) JobProgress: {'identifier': 'rover_gazebo_plugins', 'progress': 'cmake'}
+[1.758522] (rover_gazebo_plugins) Command: {'cmd': ['/usr/bin/cmake', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/rover_gazebo_plugins', '-DCMAKE_INSTALL_PREFIX=/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins'], 'cwd': '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/rover_gazebo_plugins', 'env': OrderedDict([('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('GREP_COLOR', '1;33'), ('LD_LIBRARY_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins/lib:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib:/home/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/exomy/exomy_ws/install/exomy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/root'), ('OLDPWD', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build'), ('LESS', '-R'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'exfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('MAKEFLAGS', '-j6'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install:/home/exomy/exomy_ws/install'), ('LOGNAME', 'root'), ('EXOMY_WS', '/home/exomy/exomy_ws'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim/share/exomy_sim/models:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim/share:/home/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models:/home/exomy/exomy_ws/install/exomy_sim/share:/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/exomy/.npm-global/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'di=34;40:ln=35;40:so=32;40:pi=33;40:ex=31;40:bd=34;46:cd=34;43:su=0;41:sg=0;46:tw=0;42:ow=0;43:'), ('AMENT_PREFIX_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/exomy:/home/exomy/exomy_ws/install/exomy_msgs:/opt/ros/foxy'), ('GAZEBO_RESOURCE_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim/share/exomy_sim/worlds:/home/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/rover_gazebo_plugins'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy/lib/python3.8/site-packages:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('TZ', 'Europe/Amsterdam'), ('COLCON', '1'), ('NPM_CONFIG_PREFIX', '/home/exomy/.npm-global'), ('CMAKE_PREFIX_PATH', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/exomy_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy')]), 'shell': False}
+[1.809333] (-) TimerEvent: {}
+[1.873513] (rover_gazebo_plugins) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[1.909949] (-) TimerEvent: {}
+[1.983680] (rover_gazebo_plugins) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[1.995031] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.010417] (-) TimerEvent: {}
+[2.111133] (-) TimerEvent: {}
+[2.118611] (exomy_msgs) JobEnded: {'identifier': 'exomy_msgs', 'rc': 0}
+[2.122194] (exomy) JobStarted: {'identifier': 'exomy'}
+[2.180721] (rtabmap_ros) StdoutLine: {'line': b'-- Found stereo_msgs: 2.0.5 (/opt/ros/foxy/share/stereo_msgs/cmake)\n'}
+[2.211398] (-) TimerEvent: {}
+[2.267651] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.268580] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.311921] (-) TimerEvent: {}
+[2.410380] (rtabmap_ros) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[2.412040] (-) TimerEvent: {}
+[2.512594] (-) TimerEvent: {}
+[2.550735] (rtabmap_ros) StdoutLine: {'line': b'-- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[2.607222] (rtabmap_ros) StdoutLine: {'line': b'-- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[2.613203] (-) TimerEvent: {}
+[2.618114] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.621495] (rtabmap_ros) StdoutLine: {'line': b'-- Found tf2_eigen: 0.13.13 (/opt/ros/foxy/share/tf2_eigen/cmake)\n'}
+[2.651034] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.651368] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.654736] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.713649] (-) TimerEvent: {}
+[2.814169] (-) TimerEvent: {}
+[2.914543] (-) TimerEvent: {}
+[3.015168] (-) TimerEvent: {}
+[3.020584] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.022309] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.076166] (rtabmap_ros) StdoutLine: {'line': b'-- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)\n'}
+[3.081696] (rtabmap_ros) StdoutLine: {'line': b'-- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)\n'}
+[3.116085] (-) TimerEvent: {}
+[3.216544] (-) TimerEvent: {}
+[3.245759] (exomy) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/exomy', 'build', '--build-base', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build', 'install', '--prefix', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy', '--record', '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/install.log', '--single-version-externally-managed'], 'cwd': '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/exomy', 'env': {'HOSTNAME': 'ubuntu', 'SHLVL': '1', 'GREP_COLOR': '1;33', 'LD_LIBRARY_PATH': '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins/lib:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib:/home/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/exomy/exomy_ws/install/exomy_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins', 'HOME': '/root', 'OLDPWD': '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build', 'LESS': '-R', 'ZSH': '/root/.oh-my-zsh', 'LSCOLORS': 'exfxcxdxbxegedabagacad', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'MAKEFLAGS': '-j6', 'ROS_DISTRO': 'foxy', 'COLCON_PREFIX_PATH': '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install:/home/exomy/exomy_ws/install', 'LOGNAME': 'root', 'EXOMY_WS': '/home/exomy/exomy_ws', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim/share/exomy_sim/models:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim/share:/home/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models:/home/exomy/exomy_ws/install/exomy_sim/share:/usr/share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/exomy/.npm-global/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'di=34;40:ln=35;40:so=32;40:pi=33;40:ex=31;40:bd=34;46:cd=34;43:su=0;41:sg=0;46:tw=0;42:ow=0;43:', 'AMENT_PREFIX_PATH': '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/exomy:/home/exomy/exomy_ws/install/exomy_msgs:/opt/ros/foxy', 'GAZEBO_RESOURCE_PATH': '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim/share/exomy_sim/worlds:/home/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds:/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'LC_ALL': 'C.UTF-8', 'PWD': '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy/lib/python3.8/site-packages:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'TZ': 'Europe/Amsterdam', 'COLCON': '1', 'NPM_CONFIG_PREFIX': '/home/exomy/.npm-global', 'CMAKE_PREFIX_PATH': '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_msgs:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/rover_gazebo_plugins:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/rover_gazebo_plugins:/home/exomy/exomy_ws/install/exomy_sim_launch:/home/exomy/exomy_ws/install/exomy_sim:/home/exomy/exomy_ws/install/exomy_sim_msgs:/home/exomy/exomy_ws/install/exomy_msgs'}, 'shell': False}
+[3.317188] (-) TimerEvent: {}
+[3.382684] (rtabmap_ros) StdoutLine: {'line': b'-- Found image_geometry: 2.2.1 (/opt/ros/foxy/share/image_geometry/cmake)\n'}
+[3.417252] (-) TimerEvent: {}
+[3.434554] (rtabmap_ros) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:53 (find_package):\n'}
+[3.434890] (rtabmap_ros) StderrLine: {'line': b'  By not providing "Findoctomap_msgs.cmake" in CMAKE_MODULE_PATH this project\n'}
+[3.435071] (rtabmap_ros) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[3.435226] (rtabmap_ros) StderrLine: {'line': b'  "octomap_msgs", but CMake did not find one.\n'}
+[3.435482] (rtabmap_ros) StderrLine: {'line': b'\n'}
+[3.435660] (rtabmap_ros) StderrLine: {'line': b'  Could not find a package configuration file provided by "octomap_msgs" with\n'}
+[3.435815] (rtabmap_ros) StderrLine: {'line': b'  any of the following names:\n'}
+[3.435967] (rtabmap_ros) StderrLine: {'line': b'\n'}
+[3.436116] (rtabmap_ros) StderrLine: {'line': b'    octomap_msgsConfig.cmake\n'}
+[3.436294] (rtabmap_ros) StderrLine: {'line': b'    octomap_msgs-config.cmake\n'}
+[3.436445] (rtabmap_ros) StderrLine: {'line': b'\n'}
+[3.436595] (rtabmap_ros) StderrLine: {'line': b'  Add the installation prefix of "octomap_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[3.436797] (rtabmap_ros) StderrLine: {'line': b'  "octomap_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[3.436935] (rtabmap_ros) StderrLine: {'line': b'  "octomap_msgs" provides a separate development package or SDK, be sure it\n'}
+[3.437130] (rtabmap_ros) StderrLine: {'line': b'  has been installed.\n'}
+[3.437279] (rtabmap_ros) StderrLine: {'line': b'\n'}
+[3.437418] (rtabmap_ros) StderrLine: {'line': b'\n'}
+[3.480414] (rtabmap_ros) StderrLine: {'line': b'CMake Error at CMakeLists.txt:59 (find_package):\n'}
+[3.480692] (rtabmap_ros) StderrLine: {'line': b'  By not providing "FindRTABMap.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[3.480861] (rtabmap_ros) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "RTABMap", but\n'}
+[3.481012] (rtabmap_ros) StderrLine: {'line': b'  CMake did not find one.\n'}
+[3.481203] (rtabmap_ros) StderrLine: {'line': b'\n'}
+[3.481360] (rtabmap_ros) StderrLine: {'line': b'  Could not find a package configuration file provided by "RTABMap"\n'}
+[3.481529] (rtabmap_ros) StderrLine: {'line': b'  (requested version 0.20.18) with any of the following names:\n'}
+[3.481761] (rtabmap_ros) StderrLine: {'line': b'\n'}
+[3.481912] (rtabmap_ros) StderrLine: {'line': b'    RTABMapConfig.cmake\n'}
+[3.482073] (rtabmap_ros) StderrLine: {'line': b'    rtabmap-config.cmake\n'}
+[3.482392] (rtabmap_ros) StderrLine: {'line': b'\n'}
+[3.482594] (rtabmap_ros) StderrLine: {'line': b'  Add the installation prefix of "RTABMap" to CMAKE_PREFIX_PATH or set\n'}
+[3.482760] (rtabmap_ros) StderrLine: {'line': b'  "RTABMap_DIR" to a directory containing one of the above files.  If\n'}
+[3.483013] (rtabmap_ros) StderrLine: {'line': b'  "RTABMap" provides a separate development package or SDK, be sure it has\n'}
+[3.483250] (rtabmap_ros) StderrLine: {'line': b'  been installed.\n'}
+[3.483420] (rtabmap_ros) StderrLine: {'line': b'\n'}
+[3.483556] (rtabmap_ros) StderrLine: {'line': b'\n'}
+[3.489290] (rtabmap_ros) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.489611] (rtabmap_ros) StdoutLine: {'line': b'See also "/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/rtabmap_ros/CMakeFiles/CMakeOutput.log".\n'}
+[3.489778] (rtabmap_ros) StdoutLine: {'line': b'See also "/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/rtabmap_ros/CMakeFiles/CMakeError.log".\n'}
+[3.489934] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.505512] (rtabmap_ros) CommandEnded: {'returncode': 1}
+[3.518439] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.518874] (-) TimerEvent: {}
+[3.520530] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.533601] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.548190] (rtabmap_ros) JobEnded: {'identifier': 'rtabmap_ros', 'rc': 1}
+[3.556888] (exomy) StdoutLine: {'line': b'running egg_info\n'}
+[3.558138] (exomy) StdoutLine: {'line': b'creating ../build/exomy/exomy.egg-info\n'}
+[3.558689] (exomy) StdoutLine: {'line': b'writing ../build/exomy/exomy.egg-info/PKG-INFO\n'}
+[3.559731] (exomy) StdoutLine: {'line': b'writing dependency_links to ../build/exomy/exomy.egg-info/dependency_links.txt\n'}
+[3.560221] (exomy) StdoutLine: {'line': b'writing entry points to ../build/exomy/exomy.egg-info/entry_points.txt\n'}
+[3.560744] (exomy) StdoutLine: {'line': b'writing requirements to ../build/exomy/exomy.egg-info/requires.txt\n'}
+[3.561246] (exomy) StdoutLine: {'line': b'writing top-level names to ../build/exomy/exomy.egg-info/top_level.txt\n'}
+[3.565453] (exomy) StdoutLine: {'line': b"writing manifest file '../build/exomy/exomy.egg-info/SOURCES.txt'\n"}
+[3.584500] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.584844] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.617037] (exomy) StdoutLine: {'line': b"reading manifest file '../build/exomy/exomy.egg-info/SOURCES.txt'\n"}
+[3.618382] (exomy) StdoutLine: {'line': b"writing manifest file '../build/exomy/exomy.egg-info/SOURCES.txt'\n"}
+[3.618916] (exomy) StdoutLine: {'line': b'running build\n'}
+[3.619131] (-) TimerEvent: {}
+[3.619618] (exomy) StdoutLine: {'line': b'running build_py\n'}
+[3.620302] (exomy) StdoutLine: {'line': b'creating /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build\n'}
+[3.620628] (exomy) StdoutLine: {'line': b'creating /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build/lib\n'}
+[3.620965] (exomy) StdoutLine: {'line': b'creating /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build/lib/exomy\n'}
+[3.621339] (exomy) StdoutLine: {'line': b'copying exomy/__init__.py -> /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build/lib/exomy\n'}
+[3.621790] (exomy) StdoutLine: {'line': b'copying exomy/robot_node_modified.py -> /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build/lib/exomy\n'}
+[3.623021] (exomy) StdoutLine: {'line': b'copying exomy/motor_node.py -> /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build/lib/exomy\n'}
+[3.623993] (exomy) StdoutLine: {'line': b'copying exomy/rover_modified.py -> /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build/lib/exomy\n'}
+[3.625243] (exomy) StdoutLine: {'line': b'copying exomy/motors.py -> /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build/lib/exomy\n'}
+[3.626130] (exomy) StdoutLine: {'line': b'copying exomy/locomotion_modes.py -> /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build/lib/exomy\n'}
+[3.627298] (exomy) StdoutLine: {'line': b'copying exomy/gamepad_parser_node.py -> /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build/lib/exomy\n'}
+[3.628077] (exomy) StdoutLine: {'line': b'copying exomy/rover.py -> /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build/lib/exomy\n'}
+[3.629030] (exomy) StdoutLine: {'line': b'copying exomy/robot_node.py -> /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/build/lib/exomy\n'}
+[3.630528] (exomy) StdoutLine: {'line': b'running install\n'}
+[3.633435] (exomy) StdoutLine: {'line': b'running install_lib\n'}
+[3.639340] (exomy) StdoutLine: {'line': b'running install_data\n'}
+[3.639748] (exomy) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.642022] (exomy) StdoutLine: {'line': b"removing '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy/lib/python3.8/site-packages/exomy-2.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.643502] (exomy) StdoutLine: {'line': b'Copying ../build/exomy/exomy.egg-info to /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy/lib/python3.8/site-packages/exomy-2.0.0-py3.8.egg-info\n'}
+[3.646315] (exomy) StdoutLine: {'line': b'running install_scripts\n'}
+[3.672896] (exomy) StdoutLine: {'line': b'Installing motor_node script to /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy/lib/exomy\n'}
+[3.673735] (exomy) StdoutLine: {'line': b'Installing robot_node_modified script to /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy/lib/exomy\n'}
+[3.674670] (exomy) StdoutLine: {'line': b"writing list of installed files to '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy/install.log'\n"}
+[3.708781] (exomy) JobEnded: {'identifier': 'exomy', 'rc': 'SIGINT'}
+[3.720242] (-) TimerEvent: {}
+[3.820653] (-) TimerEvent: {}
+[3.899742] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)\n'}
+[3.908215] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found gazebo_dev: 3.5.3 (/opt/ros/foxy/share/gazebo_dev/cmake)\n'}
+[3.919331] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[3.920876] (-) TimerEvent: {}
+[3.925587] (rover_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[3.950161] (rover_gazebo_plugins) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[4.021300] (-) TimerEvent: {}
+[4.121883] (-) TimerEvent: {}
+[4.171570] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") \n'}
+[4.222032] (-) TimerEvent: {}
+[4.272381] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") \n'}
+[4.322263] (-) TimerEvent: {}
+[4.390227] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0") \n'}
+[4.422762] (-) TimerEvent: {}
+[4.447291] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[4.523328] (-) TimerEvent: {}
+[4.623878] (-) TimerEvent: {}
+[4.724484] (-) TimerEvent: {}
+[4.825590] (-) TimerEvent: {}
+[4.926537] (-) TimerEvent: {}
+[4.983336] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[5.013431] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[5.023925] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.9.2\n'}
+[5.027030] (-) TimerEvent: {}
+[5.036133] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[5.038429] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[5.039349] (rover_gazebo_plugins) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[5.045337] (rover_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[5.075171] (rover_gazebo_plugins) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[5.127400] (-) TimerEvent: {}
+[5.160235] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[5.170558] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[5.188139] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[5.197180] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[5.197815] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[5.206340] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[5.206711] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[5.214718] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[5.215030] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[5.222539] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[5.222875] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[5.228486] (-) TimerEvent: {}
+[5.230831] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[5.231154] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[5.239903] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[5.328971] (-) TimerEvent: {}
+[5.429646] (-) TimerEvent: {}
+[5.451905] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.9.2\n'}
+[5.459642] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[5.461039] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[5.493898] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[5.514550] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[5.520247] (rover_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[5.530398] (-) TimerEvent: {}
+[5.546451] (rover_gazebo_plugins) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[5.628583] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[5.630965] (-) TimerEvent: {}
+[5.638539] (rover_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[5.668812] (rover_gazebo_plugins) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[5.731139] (-) TimerEvent: {}
+[5.743744] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[5.748663] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[5.749281] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[5.782555] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.9.2\n'}
+[5.789941] (rover_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[5.815722] (rover_gazebo_plugins) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[5.831426] (-) TimerEvent: {}
+[5.885250] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[5.897387] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[5.898310] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[5.899207] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[5.900210] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[5.902072] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[5.910906] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[5.917006] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[5.917742] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[5.918118] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.9.2\n'}
+[5.923949] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[5.924483] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[5.932406] (-) TimerEvent: {}
+[6.033234] (-) TimerEvent: {}
+[6.052761] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  \n'}
+[6.069203] (rover_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[6.099917] (rover_gazebo_plugins) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[6.133371] (-) TimerEvent: {}
+[6.167879] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[6.179124] (rover_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[6.208537] (rover_gazebo_plugins) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[6.233561] (-) TimerEvent: {}
+[6.295329] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[6.297151] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[6.297570] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.9.2\n'}
+[6.297878] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[6.300388] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Gazebo version: 11.9\n'}
+[6.309286] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)\n'}
+[6.334326] (-) TimerEvent: {}
+[6.433416] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.435026] (-) TimerEvent: {}
+[6.454655] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[6.535659] (-) TimerEvent: {}
+[6.636536] (-) TimerEvent: {}
+[6.665079] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[6.730510] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[6.736921] (-) TimerEvent: {}
+[6.838364] (-) TimerEvent: {}
+[6.939537] (-) TimerEvent: {}
+[6.972630] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.040322] (-) TimerEvent: {}
+[7.123940] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[7.129910] (rover_gazebo_plugins) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.134509] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.144031] (-) TimerEvent: {}
+[7.245020] (-) TimerEvent: {}
+[7.345756] (-) TimerEvent: {}
+[7.447260] (-) TimerEvent: {}
+[7.527178] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found exomy_sim_msgs: 2.0.0 (/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake)\n'}
+[7.548326] (-) TimerEvent: {}
+[7.647020] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[7.648797] (-) TimerEvent: {}
+[7.749211] (-) TimerEvent: {}
+[7.849668] (-) TimerEvent: {}
+[7.950161] (-) TimerEvent: {}
+[8.050622] (-) TimerEvent: {}
+[8.074697] (rover_gazebo_plugins) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[8.076920] (rover_gazebo_plugins) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.080075] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/rover_gazebo_plugins/include\n'}
+[8.080347] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.083205] (rover_gazebo_plugins) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[8.083482] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[8.085065] (rover_gazebo_plugins) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.087181] (rover_gazebo_plugins) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.087627] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.089018] (rover_gazebo_plugins) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.099454] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.151352] (-) TimerEvent: {}
+[8.190186] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Generating done\n'}
+[8.199894] (rover_gazebo_plugins) StdoutLine: {'line': b'-- Build files have been written to: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/rover_gazebo_plugins\n'}
+[8.222524] (rover_gazebo_plugins) JobEnded: {'identifier': 'rover_gazebo_plugins', 'rc': 'SIGINT'}
+[8.253446] (-) TimerEvent: {}
+[8.354470] (-) TimerEvent: {}
+[8.455245] (-) TimerEvent: {}
+[8.556705] (-) TimerEvent: {}
+[8.657749] (-) TimerEvent: {}
+[8.758213] (-) TimerEvent: {}
+[8.859540] (-) TimerEvent: {}
+[8.960647] (-) TimerEvent: {}
+[9.061723] (-) TimerEvent: {}
+[9.162737] (-) TimerEvent: {}
+[9.263415] (-) TimerEvent: {}
+[9.363928] (-) TimerEvent: {}
+[9.465589] (-) TimerEvent: {}
+[9.566626] (-) TimerEvent: {}
+[9.667359] (-) TimerEvent: {}
+[9.767796] (-) TimerEvent: {}
+[9.869038] (-) TimerEvent: {}
+[9.969764] (-) TimerEvent: {}
+[10.070611] (-) TimerEvent: {}
+[10.171989] (-) TimerEvent: {}
+[10.272685] (-) TimerEvent: {}
+[10.373899] (-) TimerEvent: {}
+[10.474679] (-) TimerEvent: {}
+[10.575832] (-) TimerEvent: {}
+[10.676574] (-) TimerEvent: {}
+[10.777313] (-) TimerEvent: {}
+[10.877710] (-) TimerEvent: {}
+[10.978551] (-) TimerEvent: {}
+[11.079832] (-) TimerEvent: {}
+[11.180507] (-) TimerEvent: {}
+[11.281968] (-) TimerEvent: {}
+[11.382681] (-) TimerEvent: {}
+[11.483457] (-) TimerEvent: {}
+[11.584732] (-) TimerEvent: {}
+[11.685953] (-) TimerEvent: {}
+[11.786461] (-) TimerEvent: {}
+[11.887409] (-) TimerEvent: {}
+[11.989188] (-) TimerEvent: {}
+[12.089897] (-) TimerEvent: {}
+[12.190646] (-) TimerEvent: {}
+[12.291409] (-) TimerEvent: {}
+[12.392243] (-) TimerEvent: {}
+[12.493660] (-) TimerEvent: {}
+[12.594405] (-) TimerEvent: {}
+[12.695752] (-) TimerEvent: {}
+[12.796241] (-) TimerEvent: {}
+[12.897323] (-) TimerEvent: {}
+[12.997895] (-) TimerEvent: {}
+[13.098497] (-) TimerEvent: {}
+[13.199714] (-) TimerEvent: {}
+[13.300373] (-) TimerEvent: {}
+[13.400894] (-) TimerEvent: {}
+[13.501558] (-) TimerEvent: {}
+[13.602931] (-) TimerEvent: {}
+[13.703412] (-) TimerEvent: {}
+[13.804599] (-) TimerEvent: {}
+[13.905459] (-) TimerEvent: {}
+[14.007542] (-) TimerEvent: {}
+[14.108922] (-) TimerEvent: {}
+[14.209492] (-) TimerEvent: {}
+[14.310850] (-) TimerEvent: {}
+[14.412596] (-) TimerEvent: {}
+[14.513352] (-) TimerEvent: {}
+[14.613916] (-) TimerEvent: {}
+[14.715070] (-) TimerEvent: {}
+[14.816396] (-) TimerEvent: {}
+[14.917490] (-) TimerEvent: {}
+[15.018656] (-) TimerEvent: {}
+[15.120038] (-) TimerEvent: {}
+[15.221192] (-) TimerEvent: {}
+[15.322355] (-) TimerEvent: {}
+[15.427602] (-) TimerEvent: {}
+[15.528894] (-) TimerEvent: {}
+[15.630266] (-) TimerEvent: {}
+[15.731639] (-) TimerEvent: {}
+[15.832966] (-) TimerEvent: {}
+[15.933613] (-) TimerEvent: {}
+[16.035206] (-) TimerEvent: {}
+[16.136289] (-) TimerEvent: {}
+[16.237922] (-) TimerEvent: {}
+[16.338785] (-) TimerEvent: {}
+[16.439991] (-) TimerEvent: {}
+[16.541722] (-) TimerEvent: {}
+[16.642702] (-) TimerEvent: {}
+[16.743997] (-) TimerEvent: {}
+[16.845769] (-) TimerEvent: {}
+[16.947266] (-) TimerEvent: {}
+[17.049046] (-) TimerEvent: {}
+[17.150714] (-) TimerEvent: {}
+[17.252562] (-) TimerEvent: {}
+[17.353844] (-) TimerEvent: {}
+[17.456340] (-) TimerEvent: {}
+[17.560022] (-) TimerEvent: {}
+[17.662152] (-) TimerEvent: {}
+[17.763872] (-) TimerEvent: {}
+[17.865680] (-) TimerEvent: {}
+[17.966986] (-) TimerEvent: {}
+[18.069086] (-) TimerEvent: {}
+[18.171077] (-) TimerEvent: {}
+[18.272842] (-) TimerEvent: {}
+[18.374715] (-) TimerEvent: {}
+[18.476202] (-) TimerEvent: {}
+[18.578007] (-) TimerEvent: {}
+[18.679183] (-) TimerEvent: {}
+[18.781017] (-) TimerEvent: {}
+[18.882663] (-) TimerEvent: {}
+[18.984507] (-) TimerEvent: {}
+[19.087154] (-) TimerEvent: {}
+[19.188579] (-) TimerEvent: {}
+[19.290227] (-) TimerEvent: {}
+[19.392744] (-) TimerEvent: {}
+[19.494669] (-) TimerEvent: {}
+[19.596137] (-) TimerEvent: {}
+[19.697193] (-) TimerEvent: {}
+[19.798619] (-) TimerEvent: {}
+[19.900257] (-) TimerEvent: {}
+[20.001569] (-) TimerEvent: {}
+[20.103502] (-) TimerEvent: {}
+[20.205197] (-) TimerEvent: {}
+[20.306147] (-) TimerEvent: {}
+[20.407383] (-) TimerEvent: {}
+[20.509470] (-) TimerEvent: {}
+[20.611214] (-) TimerEvent: {}
+[20.712919] (-) TimerEvent: {}
+[20.814057] (-) TimerEvent: {}
+[20.915804] (-) TimerEvent: {}
+[21.017566] (-) TimerEvent: {}
+[21.118752] (-) TimerEvent: {}
+[21.219716] (-) TimerEvent: {}
+[21.320851] (-) TimerEvent: {}
+[21.422411] (-) TimerEvent: {}
+[21.524156] (-) TimerEvent: {}
+[21.624885] (-) TimerEvent: {}
+[21.726531] (-) TimerEvent: {}
+[21.827587] (-) TimerEvent: {}
+[21.928709] (-) TimerEvent: {}
+[22.029552] (-) TimerEvent: {}
+[22.130782] (-) TimerEvent: {}
+[22.232601] (-) TimerEvent: {}
+[22.333878] (-) TimerEvent: {}
+[22.435953] (-) TimerEvent: {}
+[22.537325] (-) TimerEvent: {}
+[22.639802] (-) TimerEvent: {}
+[22.741451] (-) TimerEvent: {}
+[22.842681] (-) TimerEvent: {}
+[22.944437] (-) TimerEvent: {}
+[23.046164] (-) TimerEvent: {}
+[23.147866] (-) TimerEvent: {}
+[23.249638] (-) TimerEvent: {}
+[23.351070] (-) TimerEvent: {}
+[23.452245] (-) TimerEvent: {}
+[23.553803] (-) TimerEvent: {}
+[23.655631] (-) TimerEvent: {}
+[23.756623] (-) TimerEvent: {}
+[23.857776] (-) TimerEvent: {}
+[23.958742] (-) TimerEvent: {}
+[24.059739] (-) TimerEvent: {}
+[24.161674] (-) TimerEvent: {}
+[24.263044] (-) TimerEvent: {}
+[24.364714] (-) TimerEvent: {}
+[24.466071] (-) TimerEvent: {}
+[24.567925] (-) TimerEvent: {}
+[24.668961] (-) TimerEvent: {}
+[24.770113] (-) TimerEvent: {}
+[24.871511] (-) TimerEvent: {}
+[24.972857] (-) TimerEvent: {}
+[25.074789] (-) TimerEvent: {}
+[25.176128] (-) TimerEvent: {}
+[25.277089] (-) TimerEvent: {}
+[25.379143] (-) TimerEvent: {}
+[25.479863] (-) TimerEvent: {}
+[25.580675] (-) TimerEvent: {}
+[25.681600] (-) TimerEvent: {}
+[25.782326] (-) TimerEvent: {}
+[25.882766] (-) TimerEvent: {}
+[25.983725] (-) TimerEvent: {}
+[26.084910] (-) TimerEvent: {}
+[26.185650] (-) TimerEvent: {}
+[26.286737] (-) TimerEvent: {}
+[26.388141] (-) TimerEvent: {}
+[26.488993] (-) TimerEvent: {}
+[26.590184] (-) TimerEvent: {}
+[26.691982] (-) TimerEvent: {}
+[26.792851] (-) TimerEvent: {}
+[26.893616] (-) TimerEvent: {}
+[26.994674] (-) TimerEvent: {}
+[27.095385] (-) TimerEvent: {}
+[27.197175] (-) TimerEvent: {}
+[27.297884] (-) TimerEvent: {}
+[27.399311] (-) TimerEvent: {}
+[27.501034] (-) TimerEvent: {}
+[27.602340] (-) TimerEvent: {}
+[27.703685] (-) TimerEvent: {}
+[27.804866] (-) TimerEvent: {}
+[27.906177] (-) TimerEvent: {}
+[28.007955] (-) TimerEvent: {}
+[28.109728] (-) TimerEvent: {}
+[28.211399] (-) TimerEvent: {}
+[28.312931] (-) TimerEvent: {}
+[28.414636] (-) TimerEvent: {}
+[28.515937] (-) TimerEvent: {}
+[28.617210] (-) TimerEvent: {}
+[28.717912] (-) TimerEvent: {}
+[28.818661] (-) TimerEvent: {}
+[28.919750] (-) TimerEvent: {}
+[29.021120] (-) TimerEvent: {}
+[29.122829] (-) TimerEvent: {}
+[29.223889] (-) TimerEvent: {}
+[29.325086] (-) TimerEvent: {}
+[29.425820] (-) TimerEvent: {}
+[29.526590] (-) TimerEvent: {}
+[29.627366] (-) TimerEvent: {}
+[29.729106] (-) TimerEvent: {}
+[29.830313] (-) TimerEvent: {}
+[29.931554] (-) TimerEvent: {}
+[30.032808] (-) TimerEvent: {}
+[30.134066] (-) TimerEvent: {}
+[30.235783] (-) TimerEvent: {}
+[30.337515] (-) TimerEvent: {}
+[30.438776] (-) TimerEvent: {}
+[30.540501] (-) TimerEvent: {}
+[30.642754] (-) TimerEvent: {}
+[30.744540] (-) TimerEvent: {}
+[30.846290] (-) TimerEvent: {}
+[30.947965] (-) TimerEvent: {}
+[31.049679] (-) TimerEvent: {}
+[31.150927] (-) TimerEvent: {}
+[31.252677] (-) TimerEvent: {}
+[31.354371] (-) TimerEvent: {}
+[31.456076] (-) TimerEvent: {}
+[31.557820] (-) TimerEvent: {}
+[31.659085] (-) TimerEvent: {}
+[31.760938] (-) TimerEvent: {}
+[31.862622] (-) TimerEvent: {}
+[31.964341] (-) TimerEvent: {}
+[32.066246] (-) TimerEvent: {}
+[32.167918] (-) TimerEvent: {}
+[32.269741] (-) TimerEvent: {}
+[32.370978] (-) TimerEvent: {}
+[32.472244] (-) TimerEvent: {}
+[32.573446] (-) TimerEvent: {}
+[32.675190] (-) TimerEvent: {}
+[32.776461] (-) TimerEvent: {}
+[32.877718] (-) TimerEvent: {}
+[32.979445] (-) TimerEvent: {}
+[33.081195] (-) TimerEvent: {}
+[33.182903] (-) TimerEvent: {}
+[33.284722] (-) TimerEvent: {}
+[33.386443] (-) TimerEvent: {}
+[33.488390] (-) TimerEvent: {}
+[33.589650] (-) TimerEvent: {}
+[33.690844] (-) TimerEvent: {}
+[33.792621] (-) TimerEvent: {}
+[33.894306] (-) TimerEvent: {}
+[33.995303] (-) TimerEvent: {}
+[34.096593] (-) TimerEvent: {}
+[34.198127] (-) TimerEvent: {}
+[34.299124] (-) TimerEvent: {}
+[34.400421] (-) TimerEvent: {}
+[34.501558] (-) TimerEvent: {}
+[34.603309] (-) TimerEvent: {}
+[34.705104] (-) TimerEvent: {}
+[34.806771] (-) TimerEvent: {}
+[34.908472] (-) TimerEvent: {}
+[35.010227] (-) TimerEvent: {}
+[35.112018] (-) TimerEvent: {}
+[35.213203] (-) TimerEvent: {}
+[35.314911] (-) TimerEvent: {}
+[35.415875] (-) TimerEvent: {}
+[35.517135] (-) TimerEvent: {}
+[35.618847] (-) TimerEvent: {}
+[35.720618] (-) TimerEvent: {}
+[35.822874] (-) TimerEvent: {}
+[35.924099] (-) TimerEvent: {}
+[36.025919] (-) TimerEvent: {}
+[36.127294] (-) TimerEvent: {}
+[36.229074] (-) TimerEvent: {}
+[36.330312] (-) TimerEvent: {}
+[36.430967] (-) TimerEvent: {}
+[36.532845] (-) TimerEvent: {}
+[36.634430] (-) TimerEvent: {}
+[36.735172] (-) TimerEvent: {}
+[36.835774] (-) TimerEvent: {}
+[36.936484] (-) TimerEvent: {}
+[37.037283] (-) TimerEvent: {}
+[37.138464] (-) TimerEvent: {}
+[37.239203] (-) TimerEvent: {}
+[37.340666] (-) TimerEvent: {}
+[37.441988] (-) TimerEvent: {}
+[37.542807] (-) TimerEvent: {}
+[37.643272] (-) TimerEvent: {}
+[37.744812] (-) TimerEvent: {}
+[37.846020] (-) TimerEvent: {}
+[37.947359] (-) TimerEvent: {}
+[38.048898] (-) TimerEvent: {}
+[38.149538] (-) TimerEvent: {}
+[38.250269] (-) TimerEvent: {}
+[38.351518] (-) TimerEvent: {}
+[38.452113] (-) TimerEvent: {}
+[38.552876] (-) TimerEvent: {}
+[38.654133] (-) TimerEvent: {}
+[38.755468] (-) TimerEvent: {}
+[38.856243] (-) TimerEvent: {}
+[38.957022] (-) TimerEvent: {}
+[39.057791] (-) TimerEvent: {}
+[39.159041] (-) TimerEvent: {}
+[39.259863] (-) TimerEvent: {}
+[39.360658] (-) TimerEvent: {}
+[39.461479] (-) TimerEvent: {}
+[39.562072] (-) TimerEvent: {}
+[39.663472] (-) TimerEvent: {}
+[39.764514] (-) TimerEvent: {}
+[39.864976] (-) TimerEvent: {}
+[39.965716] (-) TimerEvent: {}
+[40.067105] (-) TimerEvent: {}
+[40.167677] (-) TimerEvent: {}
+[40.268938] (-) TimerEvent: {}
+[40.370083] (-) TimerEvent: {}
+[40.470648] (-) TimerEvent: {}
+[40.572025] (-) TimerEvent: {}
+[40.672748] (-) TimerEvent: {}
+[40.773486] (-) TimerEvent: {}
+[40.874635] (-) TimerEvent: {}
+[40.975866] (-) TimerEvent: {}
+[41.076592] (-) TimerEvent: {}
+[41.177344] (-) TimerEvent: {}
+[41.278743] (-) TimerEvent: {}
+[41.379926] (-) TimerEvent: {}
+[41.480759] (-) TimerEvent: {}
+[41.581485] (-) TimerEvent: {}
+[41.682203] (-) TimerEvent: {}
+[41.746961] (realsense_gazebo_plugin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library librealsense_gazebo_plugin.so\x1b[0m\n'}
+[41.782665] (-) TimerEvent: {}
+[41.883456] (-) TimerEvent: {}
+[41.984776] (-) TimerEvent: {}
+[42.085818] (-) TimerEvent: {}
+[42.186884] (-) TimerEvent: {}
+[42.287618] (-) TimerEvent: {}
+[42.388238] (-) TimerEvent: {}
+[42.488758] (-) TimerEvent: {}
+[42.590123] (-) TimerEvent: {}
+[42.691531] (-) TimerEvent: {}
+[42.792761] (-) TimerEvent: {}
+[42.893535] (-) TimerEvent: {}
+[42.994294] (-) TimerEvent: {}
+[43.095414] (-) TimerEvent: {}
+[43.196176] (-) TimerEvent: {}
+[43.297137] (-) TimerEvent: {}
+[43.397773] (-) TimerEvent: {}
+[43.498507] (-) TimerEvent: {}
+[43.599389] (-) TimerEvent: {}
+[43.614513] (realsense_gazebo_plugin) StdoutLine: {'line': b'[100%] Built target realsense_gazebo_plugin\n'}
+[43.632421] (realsense_gazebo_plugin) JobEnded: {'identifier': 'realsense_gazebo_plugin', 'rc': 'SIGINT'}
+[43.643891] (exomy_sim) JobSkipped: {'identifier': 'exomy_sim'}
+[43.643991] (exomy_sim_launch) JobSkipped: {'identifier': 'exomy_sim_launch'}
+[43.644052] (-) EventReactorShutdown: {}

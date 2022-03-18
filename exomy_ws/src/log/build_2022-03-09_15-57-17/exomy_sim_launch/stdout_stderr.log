@@ -1,0 +1,28 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy_sim_launch
+-- Install configuration: ""
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch/share/exomy_sim_launch//launch
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch/share/exomy_sim_launch//launch/ros_navigation_socket.launch.py
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch/share/exomy_sim_launch//launch/simulation.launch.py
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch/share/exomy_sim_launch//launch/spawn_exomy.launch.py
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch/share/exomy_sim_launch//launch/simulation_mod.launch.py
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch/share/exomy_sim_launch//launch/__pycache__
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch/share/exomy_sim_launch//launch/__pycache__/simulation_mod.launch.cpython-38.pyc
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch/share/ament_index/resource_index/package_run_dependencies/exomy_sim_launch
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch/share/ament_index/resource_index/parent_prefix_path/exomy_sim_launch
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch/share/exomy_sim_launch/environment/ament_prefix_path.sh
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch/share/exomy_sim_launch/environment/ament_prefix_path.dsv
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch/share/exomy_sim_launch/environment/path.sh
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch/share/exomy_sim_launch/environment/path.dsv
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch/share/exomy_sim_launch/local_setup.bash
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch/share/exomy_sim_launch/local_setup.sh
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch/share/exomy_sim_launch/local_setup.zsh
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch/share/exomy_sim_launch/local_setup.dsv
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch/share/exomy_sim_launch/package.dsv
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch/share/ament_index/resource_index/packages/exomy_sim_launch
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch/share/exomy_sim_launch/cmake/exomy_sim_launchConfig.cmake
+-- Up-to-date: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch/share/exomy_sim_launch/cmake/exomy_sim_launchConfig-version.cmake
+-- Installing: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy_sim_launch/share/exomy_sim_launch/package.xml

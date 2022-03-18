@@ -1,0 +1,72 @@
+[0.070s] Invoking command in '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/realsense_gazebo_plugin': /usr/bin/cmake /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/realsense_gazebo_plugin -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin
+[0.093s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.126s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.417s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.468s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.472s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.686s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.786s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.807s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.063s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[1.158s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.206s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.207s] -- Looking for ignition-math6 -- found version 6.9.2
+[1.213s] -- Searching for dependencies of ignition-math6
+[1.216s] -- Looking for OGRE...
+[1.226s] -- Found Ogre Ghadamon (1.9.0)
+[1.226s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.239s] -- Looking for OGRE_Paging...
+[1.239s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.239s] -- Looking for OGRE_Terrain...
+[1.240s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.240s] -- Looking for OGRE_Property...
+[1.240s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.240s] -- Looking for OGRE_RTShaderSystem...
+[1.240s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.240s] -- Looking for OGRE_Volume...
+[1.241s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.241s] -- Looking for OGRE_Overlay...
+[1.241s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.452s] -- Looking for ignition-math6 -- found version 6.9.2
+[1.452s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.454s] -- Searching for dependencies of ignition-transport8
+[1.499s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.524s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.531s] -- Checking for module 'libzmq >= 4'
+[1.559s] --   Found libzmq , version 4.3.2
+[1.721s] -- Checking for module 'uuid'
+[1.794s] --   Found uuid, version 2.34.0
+[1.883s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.884s] -- Searching for dependencies of ignition-msgs5
+[1.910s] -- Looking for ignition-math6 -- found version 6.9.2
+[1.922s] -- Checking for module 'tinyxml2'
+[1.977s] --   Found tinyxml2, version 6.2.0
+[2.146s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.147s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.149s] -- Searching for dependencies of ignition-common3
+[2.150s] -- Looking for dlfcn.h - found
+[2.150s] -- Looking for libdl - found
+[2.163s] -- Searching for <ignition-common3> component [graphics]
+[2.164s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.165s] -- Searching for dependencies of ignition-common3-graphics
+[2.166s] -- Looking for ignition-math6 -- found version 6.9.2
+[2.169s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.170s] -- Searching for dependencies of ignition-fuel_tools4
+[2.217s] -- Checking for module 'jsoncpp'
+[2.243s] --   Found jsoncpp, version 1.7.4
+[2.349s] -- Checking for module 'libzip'
+[2.377s] --   Found libzip, version 1.5.1
+[2.490s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.491s] -- Looking for ignition-math6 -- found version 6.9.2
+[2.492s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.495s] -- Gazebo version: 11.9
+[2.510s] -- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+[2.827s] -- Found camera_info_manager: 2.3.0 (/opt/ros/foxy/share/camera_info_manager/cmake)
+[2.881s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[3.061s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.145s] -- Configuring done
+[3.225s] -- Generating done
+[3.225s] -- Build files have been written to: /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/realsense_gazebo_plugin
+[3.247s] Invoked command in '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/realsense_gazebo_plugin' returned '0': /usr/bin/cmake /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/realsense_gazebo_plugin -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/realsense_gazebo_plugin
+[3.252s] Invoking command in '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/realsense_gazebo_plugin': /usr/bin/cmake --build /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/realsense_gazebo_plugin
+[3.410s] [100%] Built target realsense_gazebo_plugin

@@ -1,0 +1,15 @@
+[0.057s] Invoking command in '/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/install/exomy:/home/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --build /home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/build/exomy_msgs
+[0.188s] [ 12%] Built target exomy_msgs__rosidl_generator_c
+[0.188s] [ 12%] Built target exomy_msgs__cpp
+[0.301s] [ 23%] Built target exomy_msgs__rosidl_typesupport_cpp
+[0.310s] [ 34%] Built target exomy_msgs__rosidl_typesupport_introspection_cpp
+[0.326s] [ 44%] Built target exomy_msgs__rosidl_typesupport_introspection_c
+[0.342s] [ 55%] Built target exomy_msgs__rosidl_typesupport_c
+[0.344s] [ 65%] Built target exomy_msgs__rosidl_typesupport_fastrtps_cpp
+[0.381s] [ 76%] Built target exomy_msgs__rosidl_typesupport_fastrtps_c
+[0.408s] [ 76%] Built target exomy_msgs
+[0.440s] [ 78%] Built target exomy_msgs__py
+[0.480s] [ 87%] Built target exomy_msgs__python
+[0.524s] [ 91%] Built target exomy_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.527s] [ 95%] Built target exomy_msgs__rosidl_typesupport_c__pyext
+[0.547s] [100%] Built target exomy_msgs__rosidl_typesupport_introspection_c__pyext
