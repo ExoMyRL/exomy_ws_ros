@@ -1,7 +1,0 @@
-{
-  "package_name": "exomy_sim_msgs",
-  "non_idl_tuples": [
-    "/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/exomy_sim_msgs:msg/JointCommand.msg",
-    "/home/exomy/exomy_ws/exomy_ws_ros/exomy_ws/src/exomy_sim_msgs:msg/JointCommandArray.msg"
-  ]
-}
